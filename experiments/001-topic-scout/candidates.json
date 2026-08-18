@@ -1,0 +1,43 @@
+[
+  {
+    "rank": 1,
+    "problem": "Erdos #155: local growth of maximal Sidon subsets of [N]",
+    "source": "https://www.erdosproblems.com/155",
+    "scores": {"clarity": 5, "finite_experiments": 5, "lean_cost": 4, "intermediate_results": 4, "estimated_difficulty": 2},
+    "decision": "PRIMARY",
+    "reason": "Exact finite search, OEIS comparison, clean additive definitions, and possible structural lemmas around jump positions."
+  },
+  {
+    "rank": 2,
+    "problem": "Erdos #963: large dissociated subset of every n-element real set",
+    "source": "https://www.erdosproblems.com/963",
+    "scores": {"clarity": 4, "finite_experiments": 3, "lean_cost": 3, "intermediate_results": 5, "estimated_difficulty": 2},
+    "decision": "RESERVE",
+    "reason": "Promising greedy and entropy-style lemmas, but experiments over arbitrary real sets require a justified finite model."
+  },
+  {
+    "rank": 3,
+    "problem": "Erdos #787: large subset avoiding pair sums that return to A",
+    "source": "https://www.erdosproblems.com/787",
+    "scores": {"clarity": 4, "finite_experiments": 3, "lean_cost": 3, "intermediate_results": 4, "estimated_difficulty": 2},
+    "decision": "RESERVE",
+    "reason": "Accessible statement and potential graph reformulation; arbitrary real inputs complicate exhaustive experiments."
+  },
+  {
+    "rank": 4,
+    "problem": "Erdos #901: minimum edges in a non-2-colourable n-uniform hypergraph",
+    "source": "https://www.erdosproblems.com/901",
+    "scores": {"clarity": 5, "finite_experiments": 4, "lean_cost": 2, "intermediate_results": 4, "estimated_difficulty": 1},
+    "decision": "LATER",
+    "reason": "Excellent SAT target but substantially higher hypergraph formalization and computational cost."
+  },
+  {
+    "rank": 5,
+    "problem": "Erdos #902: tournaments dominating every n-set",
+    "source": "https://www.erdosproblems.com/902",
+    "scores": {"clarity": 4, "finite_experiments": 4, "lean_cost": 2, "intermediate_results": 3, "estimated_difficulty": 1},
+    "decision": "LATER",
+    "reason": "Finite and computationally natural, but initial literature and Lean infrastructure costs are higher."
+  }
+]
+

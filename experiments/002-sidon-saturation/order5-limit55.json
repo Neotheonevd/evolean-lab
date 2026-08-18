@@ -1,0 +1,23 @@
+{
+  "order": 5,
+  "coordinate_limit": 55,
+  "largest_saturated_prefix": 42,
+  "witnesses": [
+    [
+      10,
+      18,
+      19,
+      25,
+      30
+    ],
+    [
+      13,
+      18,
+      24,
+      25,
+      33
+    ]
+  ],
+  "sidon_sets_checked": 2090500,
+  "conditional": "The result only ranges over sets whose elements do not exceed coordinate_limit."
+}

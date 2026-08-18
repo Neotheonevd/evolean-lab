@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evolean-lab"
+version = "0.1.0"
+description = "An evolutionary, Lean-gated mathematical research laboratory."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+evolean = "evolean_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

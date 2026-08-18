@@ -1,0 +1,477 @@
+{
+  "definition": "maximum size of a subset of [1,n] with all positive pairwise differences distinct",
+  "results": [
+    {
+      "n": 1,
+      "maximum_size": 1,
+      "witness": [
+        1
+      ],
+      "explored_nodes": 1,
+      "elapsed_seconds": 3.7999998312443495e-06
+    },
+    {
+      "n": 2,
+      "maximum_size": 2,
+      "witness": [
+        1,
+        2
+      ],
+      "explored_nodes": 2,
+      "elapsed_seconds": 2.030000905506313e-05
+    },
+    {
+      "n": 3,
+      "maximum_size": 2,
+      "witness": [
+        1,
+        2
+      ],
+      "explored_nodes": 2,
+      "elapsed_seconds": 4.1000021155923605e-06
+    },
+    {
+      "n": 4,
+      "maximum_size": 3,
+      "witness": [
+        1,
+        2,
+        4
+      ],
+      "explored_nodes": 3,
+      "elapsed_seconds": 7.499998901039362e-06
+    },
+    {
+      "n": 5,
+      "maximum_size": 3,
+      "witness": [
+        1,
+        2,
+        4
+      ],
+      "explored_nodes": 3,
+      "elapsed_seconds": 3.7999998312443495e-06
+    },
+    {
+      "n": 6,
+      "maximum_size": 3,
+      "witness": [
+        1,
+        2,
+        4
+      ],
+      "explored_nodes": 3,
+      "elapsed_seconds": 5.80001506023109e-06
+    },
+    {
+      "n": 7,
+      "maximum_size": 4,
+      "witness": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "explored_nodes": 5,
+      "elapsed_seconds": 9.99998883344233e-06
+    },
+    {
+      "n": 8,
+      "maximum_size": 4,
+      "witness": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "explored_nodes": 4,
+      "elapsed_seconds": 6.999995093792677e-06
+    },
+    {
+      "n": 9,
+      "maximum_size": 4,
+      "witness": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "explored_nodes": 4,
+      "elapsed_seconds": 6.999995093792677e-06
+    },
+    {
+      "n": 10,
+      "maximum_size": 4,
+      "witness": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "explored_nodes": 4,
+      "elapsed_seconds": 6.299989763647318e-06
+    },
+    {
+      "n": 11,
+      "maximum_size": 4,
+      "witness": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "explored_nodes": 89,
+      "elapsed_seconds": 0.0001689000055193901
+    },
+    {
+      "n": 12,
+      "maximum_size": 5,
+      "witness": [
+        1,
+        2,
+        5,
+        10,
+        12
+      ],
+      "explored_nodes": 12,
+      "elapsed_seconds": 2.9999995604157448e-05
+    },
+    {
+      "n": 13,
+      "maximum_size": 5,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13
+      ],
+      "explored_nodes": 5,
+      "elapsed_seconds": 1.0499992640689015e-05
+    },
+    {
+      "n": 14,
+      "maximum_size": 5,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13
+      ],
+      "explored_nodes": 5,
+      "elapsed_seconds": 1.0599993402138352e-05
+    },
+    {
+      "n": 15,
+      "maximum_size": 5,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13
+      ],
+      "explored_nodes": 5,
+      "elapsed_seconds": 9.99998883344233e-06
+    },
+    {
+      "n": 16,
+      "maximum_size": 5,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13
+      ],
+      "explored_nodes": 437,
+      "elapsed_seconds": 0.0009880999859888107
+    },
+    {
+      "n": 17,
+      "maximum_size": 5,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13
+      ],
+      "explored_nodes": 613,
+      "elapsed_seconds": 0.001406800001859665
+    },
+    {
+      "n": 18,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        5,
+        11,
+        13,
+        18
+      ],
+      "explored_nodes": 46,
+      "elapsed_seconds": 0.00013830000534653664
+    },
+    {
+      "n": 19,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        9,
+        13,
+        19
+      ],
+      "explored_nodes": 12,
+      "elapsed_seconds": 3.649998689070344e-05
+    },
+    {
+      "n": 20,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        9,
+        13,
+        19
+      ],
+      "explored_nodes": 13,
+      "elapsed_seconds": 3.9000005926936865e-05
+    },
+    {
+      "n": 21,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21
+      ],
+      "explored_nodes": 6,
+      "elapsed_seconds": 1.750001683831215e-05
+    },
+    {
+      "n": 22,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21
+      ],
+      "explored_nodes": 2238,
+      "elapsed_seconds": 0.006615899997996166
+    },
+    {
+      "n": 23,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21
+      ],
+      "explored_nodes": 3037,
+      "elapsed_seconds": 0.009348099993076175
+    },
+    {
+      "n": 24,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21
+      ],
+      "explored_nodes": 4073,
+      "elapsed_seconds": 0.012410499999532476
+    },
+    {
+      "n": 25,
+      "maximum_size": 6,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21
+      ],
+      "explored_nodes": 5455,
+      "elapsed_seconds": 0.016826899984152988
+    },
+    {
+      "n": 26,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        5,
+        11,
+        19,
+        24,
+        26
+      ],
+      "explored_nodes": 250,
+      "elapsed_seconds": 0.0008908000017981976
+    },
+    {
+      "n": 27,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        5,
+        11,
+        19,
+        24,
+        26
+      ],
+      "explored_nodes": 313,
+      "elapsed_seconds": 0.0011121999996248633
+    },
+    {
+      "n": 28,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        9,
+        18,
+        22,
+        28
+      ],
+      "explored_nodes": 56,
+      "elapsed_seconds": 0.00022369998623616993
+    },
+    {
+      "n": 29,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        9,
+        13,
+        23,
+        29
+      ],
+      "explored_nodes": 12514,
+      "elapsed_seconds": 0.043564299994613975
+    },
+    {
+      "n": 30,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        9,
+        13,
+        23,
+        29
+      ],
+      "explored_nodes": 16340,
+      "elapsed_seconds": 0.058232399984262884
+    },
+    {
+      "n": 31,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21,
+        31
+      ],
+      "explored_nodes": 21167,
+      "elapsed_seconds": 0.0769369000045117
+    },
+    {
+      "n": 32,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21,
+        31
+      ],
+      "explored_nodes": 27213,
+      "elapsed_seconds": 0.09963509999215603
+    },
+    {
+      "n": 33,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21,
+        31
+      ],
+      "explored_nodes": 35099,
+      "elapsed_seconds": 0.1322811999998521
+    },
+    {
+      "n": 34,
+      "maximum_size": 7,
+      "witness": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        21,
+        31
+      ],
+      "explored_nodes": 44895,
+      "elapsed_seconds": 0.16897970001446083
+    },
+    {
+      "n": 35,
+      "maximum_size": 8,
+      "witness": [
+        1,
+        2,
+        5,
+        10,
+        16,
+        23,
+        33,
+        35
+      ],
+      "explored_nodes": 1286,
+      "elapsed_seconds": 0.00528490002034232
+    }
+  ],
+  "jump_positions": [
+    2,
+    4,
+    7,
+    12,
+    18,
+    26,
+    35
+  ]
+}
