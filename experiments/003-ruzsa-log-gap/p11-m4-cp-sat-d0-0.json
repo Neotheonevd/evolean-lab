@@ -1,0 +1,18 @@
+{
+  "method": "cp_sat_exact_model",
+  "status": "UNKNOWN",
+  "p": 11,
+  "q": 133,
+  "layers": 4,
+  "objective": null,
+  "best_bound": null,
+  "max_bad_decision": 48,
+  "fixed_heights": {
+    "0": 0
+  },
+  "ordered_triples": 1452,
+  "unique_affine_expressions": 792,
+  "wall_time_seconds": 60.029050500000004,
+  "branches": 172159,
+  "conflicts": 26650
+}
