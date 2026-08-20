@@ -80,6 +80,7 @@ Lean 实验需要本地安装 Lean 4 和 Mathlib。仓库不包含庞大的 Math
 
 ## 项目文档
 
+- [当前研究状态：我们走到了哪里？](docs/current-status.md)
 - [研究愿景](docs/vision.md)
 - [系统架构](docs/architecture.md)
 - [ArgusAgent 机制借鉴](docs/argus-adaptation.md)
