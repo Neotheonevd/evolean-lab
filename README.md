@@ -20,8 +20,9 @@ EvoLean Lab 是一个开放的 AI 数学研究实验项目。我们希望把“�
 - [实验 002：极小的极大 Sidon 集](experiments/002-sidon-saturation/README.md)：研究按包含关系极大的 Sidon 集能有多小。项目已经得到 `s(43)=6` 的计算验证，以及 Lean 验证的 `M(6) ≥ 63` 新下界见证。
 - [实验 002 完整中文报告](experiments/002-sidon-saturation/EXPERIMENT_REPORT.zh-CN.md)：记录命题生成、错误猜想反驳、独立穷举、Lean 核验和文献查重。
 - [实验 003：Ruzsa 构造中的对数缺口](experiments/003-ruzsa-log-gap/README.md)：转向 Erdős Problem #156，研究能否把极大 Sidon 集的已知 `O((N log N)^(1/3))` 上界改进到猜想中的 `O(N^(1/3))`。
-- [实验 003 的 Lean 修补引理](experiments/003-ruzsa-log-gap/RepairLemma.lean)：机械验证 Sidon 集中“非锚点—同余类锚点”差值的核心注入性。由此得到缺陷容忍路线：若未覆盖点只占 `t` 个额外模 `q` 类，则扩张代价至多约为 `2N/q+t`。
-- [实验 003 的结构高度搜索](experiments/003-ruzsa-log-gap/projective_height_search.py)：已经测试自由搜索、指数多项式分桶、有限域射影 Möbius 分桶和周期着色，并记录失败路线，避免重复搜索。
+- [实验 003 的完整 Lean 修补桥梁](experiments/003-ruzsa-log-gap/RepairLemma.lean)：已从“未阻塞点只落在旧类或异常类 `E`”严格推出 `|A\A₀|≤2K+|E|`。阻塞接口、新锚点到异常类的注入、非锚点差值注入和非零 `q` 倍数计数均已机械验证。
+- [实验 003 的 Singer 有理三元参数化](experiments/003-ruzsa-log-gap/SingerTripleParam.lean)：把固定剩余类的 `p+1` 个三元表示统一写成单参数有限域有理式；代数重构已经 Lean 验证，Singer 成员关系调用文献的唯一混合表示定理。
+- [实验 003 的结构高度与精确校准](experiments/003-ruzsa-log-gap/README.md)：已测试自由/超图搜索、CP-SAT、有限域迹高度、Singer 平移和完整仿射轨道；`p=11,M=4` 最佳坏类数为 49，`p=13,M=4` 为 55。失败路线和证据边界均被保留。
 - [从 Microsoft ArgusAgent 借鉴的机制](docs/argus-adaptation.md)：命题版本、内容摘要绑定、证据分级和 AND/OR 证明路线。
 
 ### 当前证明前沿
@@ -30,10 +31,14 @@ EvoLean Lab 是一个开放的 AI 数学研究实验项目。我们希望把“�
 
 目前已经得到：
 
-- `VERIFIED`：极大 Sidon 集的阻塞刻画，以及修补计数所需的核心差值注入性；
-- `SUPPORTED`：若 `M=cp` 时只有 `O(p)` 个额外剩余类出现缺层，则修补引理会给出 `O(N^(1/3))` 的极大 Sidon 集；
+- `VERIFIED`：极大 Sidon 集的阻塞刻画，以及端到端有限修补界
+  `|A\A₀|≤2 floor((N-1)/q)+t`；因此“线性异常类数推出 `O(N^(1/3))`”的确定性桥梁已经闭合；
+- `VERIFIED`：Singer 唯一混合表示的有理式代数重构。固定目标群元素 `R` 后，全部三元表示可由一个 Singer 参数 `V` 描述；成员关系使用已有文献定理；
+- `COMPUTATIONALLY_VERIFIED`：当前最佳有限见证为 `p=11,M=4` 的 49 个坏类，以及 `p=13,M=4` 的 55 个坏类（覆盖 `615/676` 个目标单元）；这些不是全局最优或无限族证明；
+- 已排除的主线：完整仿射轨道搬运不能改善现有固定高度；总二次能量 `O(p)` 虽是充分条件，但与当前优良见证的量级不符，已停止作为证明主线；
 - 确定性容量障碍：必须取 `0<c<1/2`，因为每个剩余类至多产生约 `(p+1)/2` 个不同高度；
-- `UNRESOLVED`：构造 Singer 高度，使出现缺层的额外剩余类数为 `O(p)`。这被登记为 `LINEAR-RESIDUE-DEFECT`，是当前唯一的发现瓶颈。
+- `UNRESOLVED`：构造 Singer 高度，使出现缺层的额外剩余类数为 `O(p)`。这被登记为 `LINEAR-RESIDUE-DEFECT`，是当前唯一的核心构造定理；
+- 当前精确障碍：有限域有理参数化已经存在，但整数分桶与离散对数 `carry` 不是有界次数代数谓词。Lean 已验证循环命中的真实层只能是 `j-M,j,j+M`，同时验证“全部命中停在 `j+M`”是抽象允许的；所以模 `M` 覆盖本身不够，必须证明除 `O(p)` 个单元外都存在绕数为 0 的表示。
 
 因此实验 003 并不是只做反例搜索；反例用于淘汰错误的中间路线，主流程始终朝向“构造高度 → 控制坏剩余类 → 修补成极大 Sidon 集 → 推出 Erdős #156”。
 
