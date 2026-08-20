@@ -1,0 +1,7082 @@
+{
+  "method": "winding_defect_audit",
+  "p": 13,
+  "q": 183,
+  "layers": 4,
+  "total_cells": 676,
+  "exact_covered": 615,
+  "cyclic_covered": 637,
+  "missing_cells": 61,
+  "category_counts": {
+    "exact": 615,
+    "cyclic_uncovered": 39,
+    "wrap_only": 22
+  },
+  "winding_histogram": {
+    "-1": 119,
+    "0": 2159,
+    "1": 88
+  },
+  "fraction_of_missing_that_is_wrap_only": 0.36065573770491804,
+  "cells": [
+    {
+      "residue": 1,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 1,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 1,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 1,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 2,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 2,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 2,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 2,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 3,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 3,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 3,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 3,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 4,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 4,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 4,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 4,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 5,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 5,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 5,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 5,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 6,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 6,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 6,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 6,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 7,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 7,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 7,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 7,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 8,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 8,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 8,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 8,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 10,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1
+      ]
+    },
+    {
+      "residue": 10,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 10,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 10,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 11,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 11,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 11,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 11,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 12,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 12,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 12,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 12,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 13,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 13,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 13,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 13,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 14,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 14,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 14,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 14,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 16,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 16,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 16,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 16,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 17,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 17,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 17,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 17,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 18,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 18,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 18,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 18,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 19,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 19,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 19,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 19,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 21,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 21,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 21,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 21,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 22,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 22,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 22,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 22,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 23,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 23,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 23,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 23,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 24,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 24,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 24,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 24,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 25,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 25,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 25,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 25,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 26,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 26,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 26,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 26,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 27,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 27,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 27,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 27,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 28,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 28,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 28,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 28,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 29,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 29,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 29,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 29,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 30,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 30,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 30,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 30,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 31,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 31,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 31,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 31,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 32,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 32,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 32,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 32,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 33,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 33,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 33,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 33,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 35,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 35,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 35,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 35,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 36,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 36,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 36,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 36,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 37,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 37,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 37,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 37,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 38,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 38,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 38,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 38,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 39,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 39,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 39,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 39,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 40,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 40,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 40,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 40,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 41,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 41,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 41,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 41,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 42,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 42,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 42,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 42,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 43,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 43,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 43,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 43,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 44,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 44,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 44,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 44,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 45,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 45,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 45,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 45,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 46,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 46,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 46,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 46,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 47,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 47,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 47,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 47,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 48,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 48,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 48,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 48,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 49,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 49,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 49,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 49,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 50,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 50,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 50,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 50,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 51,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 51,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 51,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 51,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 52,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 52,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 52,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 52,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 53,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 53,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 53,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 53,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 54,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 54,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 54,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 54,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 55,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 55,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 55,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 55,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 56,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 56,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 56,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 56,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 57,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 57,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 57,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 57,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 58,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 58,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 58,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 58,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 59,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 59,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 59,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 59,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 60,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 60,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 60,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 60,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 61,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 61,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 61,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 61,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 63,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 63,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 63,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 63,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 66,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 66,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 66,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 66,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 67,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 67,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 67,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 67,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 68,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 68,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 68,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 68,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 69,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 69,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 69,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 69,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 70,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 70,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 70,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 70,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 71,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 71,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 71,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 71,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 73,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 73,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 73,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 73,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 74,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 74,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 74,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 74,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 75,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 75,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 75,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 75,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 76,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 76,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 76,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 76,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 77,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 77,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 77,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 77,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 78,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 78,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 78,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 78,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 79,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 79,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 79,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 79,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 80,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "residue": 80,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 80,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 80,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 81,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 81,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 81,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 81,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 82,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 82,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 82,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 82,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 83,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 83,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 83,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 83,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 84,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 84,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 84,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 84,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 85,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 85,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 85,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 85,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 86,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 86,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 86,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 86,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 87,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 87,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 87,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 87,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 89,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 89,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 89,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 89,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 90,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 90,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 90,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 90,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 91,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 91,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 91,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 91,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 92,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 92,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 92,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 92,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 93,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 93,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 93,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 93,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 94,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 94,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 94,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 94,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 95,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 95,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 95,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 95,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 96,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 96,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 96,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 96,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 97,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 97,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 97,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 97,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 98,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 98,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 98,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 98,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 99,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 99,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 99,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 99,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 100,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 100,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 100,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 100,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 102,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 102,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 102,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 102,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 103,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 103,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 103,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 103,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 104,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 104,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 104,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 104,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 106,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 106,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 106,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 106,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 107,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 107,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 107,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 107,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 108,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 108,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 108,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 108,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 109,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 109,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 109,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 109,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 110,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 110,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 110,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 110,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 111,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 111,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 111,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 111,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 112,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 112,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 112,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 112,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 113,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 113,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 113,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 113,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1
+      ]
+    },
+    {
+      "residue": 114,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 114,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 114,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 114,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 115,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 115,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 115,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 115,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 116,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 116,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 116,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 116,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 117,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 117,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 117,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 117,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 118,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 118,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 118,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 118,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 119,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 119,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 119,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 119,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 120,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 120,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 120,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 120,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 121,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 121,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 121,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 121,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 122,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 122,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 122,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 122,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 124,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 124,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 124,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 124,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 125,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 125,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 125,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 125,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 126,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 126,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 126,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 126,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 127,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 127,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 127,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 127,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 128,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 128,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 128,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 128,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 129,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 129,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 129,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 129,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 130,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 130,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 130,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 130,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 131,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 131,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 131,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 131,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 132,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 132,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 132,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 132,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 133,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 133,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 133,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 133,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 134,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 134,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 134,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 134,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 135,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 135,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 135,
+      "target": 2,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 135,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 136,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 136,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 136,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 136,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 137,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 137,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 137,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 137,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 138,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 138,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 138,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 138,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 139,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 139,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 139,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 139,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 140,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 140,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 140,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 140,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 141,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 141,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 141,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 141,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 142,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 142,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 142,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 142,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 143,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 143,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 143,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 143,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 144,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 144,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 144,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 144,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 145,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 145,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 145,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 145,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 146,
+      "target": 0,
+      "category": "wrap_only",
+      "windings": [
+        1
+      ]
+    },
+    {
+      "residue": 146,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 146,
+      "target": 2,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 146,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 147,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 147,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 147,
+      "target": 2,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 147,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 148,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 148,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 148,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 148,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 149,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 149,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 149,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 149,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 150,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 150,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 150,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 150,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 151,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 151,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 151,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 151,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 152,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 152,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 152,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 152,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 153,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 153,
+      "target": 1,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 153,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 153,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 154,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 154,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 154,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 154,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 155,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 155,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 155,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 155,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 156,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 156,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 156,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 156,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 157,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "residue": 157,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 157,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 157,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 158,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 158,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 158,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 158,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 159,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 159,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 159,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 159,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 160,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 160,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 160,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 160,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 161,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 161,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 161,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 161,
+      "target": 3,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 162,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 162,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 162,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 162,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 163,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 163,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 163,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 163,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 164,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 164,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 164,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 164,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 165,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 165,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 165,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 165,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 166,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 166,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 166,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 166,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 167,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 167,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 167,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 167,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 168,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 168,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 168,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 168,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 169,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 169,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 169,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 169,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 170,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 170,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 170,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 170,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 172,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 172,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 172,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 172,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 173,
+      "target": 0,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 173,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 173,
+      "target": 2,
+      "category": "cyclic_uncovered",
+      "windings": []
+    },
+    {
+      "residue": 173,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 174,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 174,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 174,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 174,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 175,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 175,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 175,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 175,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 176,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 176,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 176,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 176,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 177,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 177,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 177,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 177,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 178,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 178,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 178,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 178,
+      "target": 3,
+      "category": "wrap_only",
+      "windings": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "residue": 179,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 179,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 179,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 179,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0
+      ]
+    },
+    {
+      "residue": 180,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 180,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 180,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 180,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 181,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 181,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 181,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 181,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        0
+      ]
+    },
+    {
+      "residue": 182,
+      "target": 0,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 182,
+      "target": 1,
+      "category": "exact",
+      "windings": [
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 182,
+      "target": 2,
+      "category": "exact",
+      "windings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "residue": 182,
+      "target": 3,
+      "category": "exact",
+      "windings": [
+        -1,
+        -1,
+        0
+      ]
+    }
+  ]
+}
