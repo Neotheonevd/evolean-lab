@@ -1,38 +1,21 @@
-# Experiment 001: topic scouting
+# 实验 001：课题侦察
 
-## Frozen domain
+## 固定领域
 
-Finite extremal combinatorics, initially focused on additive combinatorics and finite set systems.
+有限极值组合数学，初期集中在加法组合、有限集合系统和初等图论。
 
-## Objective
+## 首选母问题
 
-Select a first research topic with a precise open parent problem, a finite computational entry point, plausible intermediate lemmas, and a manageable Lean formalization path.
+Erdős Problem #155。令 `F(N)` 表示 `{1,...,N}` 中 Sidon 子集的最大大小。对每个固定的 `k`，是否存在充分大的 `N`，使得 `F(N+k) ≤ F(N)+1`？
 
-This is a scouting experiment, not a novelty claim. Open status must be independently rechecked before serious work.
+来源：https://www.erdosproblems.com/155
 
-## Primary candidate
+## 实验结果
 
-Erdős Problem #155. Let `F(N)` be the largest cardinality of a Sidon subset of `{1, ..., N}`. For every fixed `k`, is `F(N+k) <= F(N)+1` for all sufficiently large `N`?
+`sidon_scan.py` 使用“正差互异”的等价刻画执行精确分支限界搜索。扫描到 `N=35` 后得到跳跃位置 `2,4,7,12,18,26,35`，并在 `N=35` 找到八元素见证 `{1,2,5,10,16,23,33,35}`。
 
-Source: https://www.erdosproblems.com/155
+这些数据与已知最优 Golomb ruler 序列一致，因此不是新数学结果，而是对搜索管道的验证。
 
-## Experiment
+`SidonBridge.lean` 已机械验证搜索所用的结构桥梁：正差唯一推出非降序元素对之和唯一。Lean 成功退出，没有 `sorry`、`admit` 或新增公理。
 
-`sidon_scan.py` performs an exact branch-and-bound search using the equivalent distinct-positive-differences characterization. It fixes the minimum mark at `1`, which is valid because every finite integer Sidon set can be translated left without changing its differences.
-
-The finite computation is evidence and a source of sub-conjectures. It cannot resolve the asymptotic open problem.
-
-## First run
-
-The exact scan through `N = 35` found jumps at `2, 4, 7, 12, 18, 26, 35`; at
-`N = 35` it produced the size-eight witness `{1, 2, 5, 10, 16, 23, 33, 35}`.
-These values agree with the known optimal-Golomb-ruler sequence, so this is a
-pipeline validation rather than a novelty claim.
-
-`SidonBridge.lean` mechanically verifies the structural implication used by the
-search: unique positive differences imply uniqueness of nondecreasing pair sums.
-Lean exits successfully with no `sorry`, `admit`, or added axioms.
-
-Current research status: `PARTIAL_PROGRESS`. The finite maximality certificates
-remain Python computations rather than Lean proofs, and no new theorem about the
-asymptotic parent problem has been established.
+当前研究状态为 `PARTIAL_PROGRESS`：结构引理已经形式验证，但 Python 的有限最优性证书尚未进入 Lean，也没有解决原渐近开放问题。

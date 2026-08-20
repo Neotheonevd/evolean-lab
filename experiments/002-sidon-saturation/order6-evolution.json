@@ -1,0 +1,199 @@
+{
+  "order": 6,
+  "coordinate_limit": 100,
+  "seed": 20260820,
+  "generations": 1500,
+  "population": 500,
+  "best_saturated_prefix": 61,
+  "witness": [
+    22,
+    30,
+    31,
+    33,
+    43,
+    58
+  ],
+  "history": [
+    {
+      "generation": 0,
+      "score": 23,
+      "witness": [
+        5,
+        9,
+        15,
+        16,
+        29,
+        61
+      ]
+    },
+    {
+      "generation": 2,
+      "score": 34,
+      "witness": [
+        5,
+        9,
+        15,
+        16,
+        18,
+        30
+      ]
+    },
+    {
+      "generation": 3,
+      "score": 39,
+      "witness": [
+        4,
+        6,
+        12,
+        15,
+        28,
+        35
+      ]
+    },
+    {
+      "generation": 4,
+      "score": 39,
+      "witness": [
+        5,
+        9,
+        10,
+        16,
+        30,
+        32
+      ]
+    },
+    {
+      "generation": 5,
+      "score": 39,
+      "witness": [
+        5,
+        11,
+        15,
+        18,
+        20,
+        32
+      ]
+    },
+    {
+      "generation": 6,
+      "score": 45,
+      "witness": [
+        9,
+        11,
+        16,
+        19,
+        33,
+        42
+      ]
+    },
+    {
+      "generation": 7,
+      "score": 46,
+      "witness": [
+        5,
+        9,
+        10,
+        18,
+        30,
+        32
+      ]
+    },
+    {
+      "generation": 9,
+      "score": 47,
+      "witness": [
+        9,
+        11,
+        16,
+        19,
+        31,
+        42
+      ]
+    },
+    {
+      "generation": 12,
+      "score": 52,
+      "witness": [
+        9,
+        16,
+        19,
+        20,
+        33,
+        38
+      ]
+    },
+    {
+      "generation": 16,
+      "score": 54,
+      "witness": [
+        8,
+        18,
+        19,
+        21,
+        33,
+        39
+      ]
+    },
+    {
+      "generation": 25,
+      "score": 55,
+      "witness": [
+        9,
+        25,
+        26,
+        32,
+        34,
+        46
+      ]
+    },
+    {
+      "generation": 26,
+      "score": 59,
+      "witness": [
+        8,
+        21,
+        25,
+        26,
+        35,
+        41
+      ]
+    },
+    {
+      "generation": 34,
+      "score": 60,
+      "witness": [
+        8,
+        22,
+        26,
+        32,
+        39,
+        41
+      ]
+    },
+    {
+      "generation": 91,
+      "score": 60,
+      "witness": [
+        15,
+        22,
+        30,
+        31,
+        41,
+        43
+      ]
+    },
+    {
+      "generation": 129,
+      "score": 61,
+      "witness": [
+        22,
+        30,
+        31,
+        33,
+        43,
+        58
+      ]
+    }
+  ],
+  "status": "lower-bound witness only; evolutionary search does not prove optimality"
+}

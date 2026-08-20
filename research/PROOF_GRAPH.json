@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "routes": [
+    {
+      "route_id": "ROUTE-SIDON-43-EQUALITY",
+      "goal": "SIDON-43-EQ",
+      "operator": "AND",
+      "obligations": ["SIDON-43-UPPER", "SIDON-43-LOWER"],
+      "implication_review": "pending: encode the elementary combination step in Lean"
+    },
+    {
+      "route_id": "ROUTE-SIDON-M6-EQUALITY",
+      "goal": "SIDON-M6-EQ-61",
+      "operator": "AND",
+      "obligations": ["SIDON-M6-LOWER-61", "SIDON-M6-UPPER-61"],
+      "notes": "The upper-bound claim has not been created because no exhaustive certificate or proof exists yet. Evolutionary stagnation is not evidence of optimality."
+    }
+  ]
+}

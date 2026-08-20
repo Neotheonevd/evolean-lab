@@ -23,4 +23,13 @@ theorem witness43_is_maximal : maximalSidonInB 43 witness43 = true := by
 theorem witness43_card : witness43.length = 6 := by
   native_decide
 
+def witness61 : List ℕ := [22, 30, 31, 33, 43, 58]
+
+/-- Evolutionary search certificate: six marks already saturate `[1, 61]`. -/
+theorem witness61_is_maximal : maximalSidonInB 61 witness61 = true := by
+  native_decide
+
+theorem witness61_card : witness61.length = 6 := by
+  native_decide
+
 end EvoLeanLab.SidonSaturation

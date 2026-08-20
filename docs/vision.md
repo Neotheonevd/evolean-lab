@@ -1,16 +1,17 @@
-# Research vision
+# 研究愿景
 
-The long-term objective is a reproducible mathematical laboratory capable of producing a genuinely new, expert-reviewable result at roughly master's-to-ordinary-doctoral research scale, with its central claims mechanically checked in Lean.
+EvoLean Lab 的长期目标，是建立一个可复现的数学研究实验室，在 Lean 形式验证和专家审查的约束下，产出具有硕士到普通博士研究规模的真实新结果。
 
-The laboratory should:
+系统应当能够：
 
-1. maintain a sourced pool of tractable open problems;
-2. distinguish original statements from special cases and weakenings;
-3. evolve proof plans, lemma graphs, counterexample generators, and research strategies;
-4. reward verified progress, novelty, reuse, and robustness rather than persuasive prose;
-5. preserve failed approaches as negative research knowledge;
-6. require independent novelty review before describing a result as new;
-7. emit a reproducibility bundle containing sources, experiments, human-readable arguments, Lean artifacts, and lineage.
+1. 维护带可靠来源、适合推进的开放问题池；
+2. 严格区分原始问题、特殊情形、弱化命题和派生命题；
+3. 演化证明计划、引理图、反例生成器和研究策略；
+4. 奖励已经验证的进展、新颖性、多样性、复用价值和稳健性，而不是奖励听起来可信的文字；
+5. 保存失败路线，把它们作为负面研究知识，避免重复消耗；
+6. 在声称结果新颖之前执行独立文献审计；
+7. 输出包含来源、实验、自然语言证明、Lean 文件和研究谱系的复现包。
 
-The initial mathematical focus should be finite combinatorics, elementary graph theory, and related Erdős-style problems because they combine clear statements, finite experiments, useful counterexample search, and manageable formalization costs.
+初始领域集中在有限组合数学、初等图论和 Erdős 风格问题。这些方向通常拥有清晰命题、可行的有限实验、有效的反例搜索入口和相对可控的形式化成本。
 
+最终目标不是让语言模型写出一篇看似像论文的文本，而是建立一条证据链：每个结论都能追溯到精确命题、实际执行的验证器、可检查的产物以及尚未关闭的缺口。

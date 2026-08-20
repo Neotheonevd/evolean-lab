@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "claim_status_is_derived": true,
+    "evidence_binds_to_statement_sha256": true,
+    "revisions_create_new_versions": true,
+    "route_completion_does_not_settle_its_goal": true
+  },
+  "claims": [
+    {
+      "claim_id": "SIDON-43-UPPER",
+      "version": 1,
+      "statement": "There exists a six-element inclusion-maximal Sidon subset of [1,43].",
+      "statement_sha256": "e0d7600644f1130598eb637375c57e4f6d07f83fc3db09ff011e8d51fdac64f3"
+    },
+    {
+      "claim_id": "SIDON-43-LOWER",
+      "version": 1,
+      "statement": "No Sidon subset of [1,43] of cardinality at most five is inclusion-maximal.",
+      "statement_sha256": "76fdc2c25fd01e8ac05b58e36f588138bf72410c8966c03e1a436dc77ebebe97"
+    },
+    {
+      "claim_id": "SIDON-43-EQ",
+      "version": 1,
+      "statement": "For s(N), the minimum size of an inclusion-maximal Sidon subset of [1,N], s(43) = 6.",
+      "statement_sha256": "10ea336c83a85b4ee08176388fbf6f809a22fb423e87b8fba37b9efaeeb8ac58"
+    },
+    {
+      "claim_id": "SIDON-M6-LOWER-61",
+      "version": 1,
+      "statement": "There exists a six-element inclusion-maximal Sidon subset of [1,61].",
+      "statement_sha256": "ff1ac50d974259239cae8d8de57ddb03ee69d2d3f1fec6edc6d1fcc7a1563ae8"
+    },
+    {
+      "claim_id": "SIDON-M6-EQ-61",
+      "version": 1,
+      "statement": "M(6) = 61, where M(k) is the largest N admitting a k-element inclusion-maximal Sidon subset of [1,N].",
+      "statement_sha256": "1157f82f55fa02c50eb3fc2bc83d9a1a09ccf821adfcbb297164f4a3e18ff774"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "LEAN-SIDON-43-UPPER-001",
+      "claim_id": "SIDON-43-UPPER",
+      "claim_version": 1,
+      "statement_sha256": "e0d7600644f1130598eb637375c57e4f6d07f83fc3db09ff011e8d51fdac64f3",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean exit code 0; no sorry/admit/new axioms."
+    },
+    {
+      "evidence_id": "ENUM-SIDON-43-LOWER-001",
+      "claim_id": "SIDON-43-LOWER",
+      "claim_version": 1,
+      "statement_sha256": "76fdc2c25fd01e8ac05b58e36f588138bf72410c8966c03e1a436dc77ebebe97",
+      "tier": "computational",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/independent_difference_check.py",
+      "diagnostics": "Exhausted all 1,099,295 subsets of sizes 1 through 5."
+    },
+    {
+      "evidence_id": "LEAN-SIDON-M6-61-001",
+      "claim_id": "SIDON-M6-LOWER-61",
+      "claim_version": 1,
+      "statement_sha256": "ff1ac50d974259239cae8d8de57ddb03ee69d2d3f1fec6edc6d1fcc7a1563ae8",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean exit code 0 for witness [22,30,31,33,43,58] in [1,61]."
+    }
+  ]
+}
