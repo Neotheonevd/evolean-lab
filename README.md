@@ -19,7 +19,23 @@ EvoLean Lab 是一个开放的 AI 数学研究实验项目。我们希望把“�
 - [实验 001：课题侦察](experiments/001-topic-scout/README.md)：选择有限极值组合数学作为首个领域，并用 Lean 验证 Sidon 集与正差搜索之间的关键桥梁。
 - [实验 002：极小的极大 Sidon 集](experiments/002-sidon-saturation/README.md)：研究按包含关系极大的 Sidon 集能有多小。项目已经得到 `s(43)=6` 的计算验证，以及 Lean 验证的 `M(6) ≥ 63` 新下界见证。
 - [实验 002 完整中文报告](experiments/002-sidon-saturation/EXPERIMENT_REPORT.zh-CN.md)：记录命题生成、错误猜想反驳、独立穷举、Lean 核验和文献查重。
+- [实验 003：Ruzsa 构造中的对数缺口](experiments/003-ruzsa-log-gap/README.md)：转向 Erdős Problem #156，研究能否把极大 Sidon 集的已知 `O((N log N)^(1/3))` 上界改进到猜想中的 `O(N^(1/3))`。
+- [实验 003 的 Lean 修补引理](experiments/003-ruzsa-log-gap/RepairLemma.lean)：机械验证 Sidon 集中“非锚点—同余类锚点”差值的核心注入性。由此得到缺陷容忍路线：若未覆盖点只占 `t` 个额外模 `q` 类，则扩张代价至多约为 `2N/q+t`。
+- [实验 003 的结构高度搜索](experiments/003-ruzsa-log-gap/projective_height_search.py)：已经测试自由搜索、指数多项式分桶、有限域射影 Möbius 分桶和周期着色，并记录失败路线，避免重复搜索。
 - [从 Microsoft ArgusAgent 借鉴的机制](docs/argus-adaptation.md)：命题版本、内容摘要绑定、证据分级和 AND/OR 证明路线。
+
+### 当前证明前沿
+
+当前冻结的主目标是 Erdős Problem #156。取 `q=p²+p+1`，Ruzsa 使用大小为 `p+1` 的 Singer 差集并为每个元素选择整数高度。随机高度需要 coupon-collector/union-bound 产生的对数因子；本项目正在寻找确定性替代。
+
+目前已经得到：
+
+- `VERIFIED`：极大 Sidon 集的阻塞刻画，以及修补计数所需的核心差值注入性；
+- `SUPPORTED`：若 `M=cp` 时只有 `O(p)` 个额外剩余类出现缺层，则修补引理会给出 `O(N^(1/3))` 的极大 Sidon 集；
+- 确定性容量障碍：必须取 `0<c<1/2`，因为每个剩余类至多产生约 `(p+1)/2` 个不同高度；
+- `UNRESOLVED`：构造 Singer 高度，使出现缺层的额外剩余类数为 `O(p)`。这被登记为 `LINEAR-RESIDUE-DEFECT`，是当前唯一的发现瓶颈。
+
+因此实验 003 并不是只做反例搜索；反例用于淘汰错误的中间路线，主流程始终朝向“构造高度 → 控制坏剩余类 → 修补成极大 Sidon 集 → 推出 Erdős #156”。
 
 我们严格区分证据等级：
 
