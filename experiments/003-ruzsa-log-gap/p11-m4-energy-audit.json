@@ -1,0 +1,1575 @@
+{
+  "method": "energy_collision_audit",
+  "p": 11,
+  "q": 133,
+  "layers": 4,
+  "residue_classes": 121,
+  "bad_classes": 49,
+  "classes_with_in_range_count_not_divisible_by_M": 79,
+  "total_in_range_diagonal": 1235,
+  "total_ordered_collisions": 4195,
+  "total_off_diagonal_collisions": 2960,
+  "total_baseline": "12819/4",
+  "total_centered_energy": "3961/4",
+  "energy_per_residue": 8.183884297520661,
+  "bad_weight_sum_n_squared": 4862,
+  "energy_inequality_rhs": "11883",
+  "weighted_inequality_holds": true,
+  "rows": [
+    {
+      "residue": 1,
+      "in_range": 12,
+      "counts": [
+        2,
+        2,
+        4,
+        4
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 2,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 3,
+      "in_range": 10,
+      "counts": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "1"
+    },
+    {
+      "residue": 4,
+      "in_range": 12,
+      "counts": [
+        0,
+        3,
+        5,
+        4
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "14"
+    },
+    {
+      "residue": 5,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 6,
+      "in_range": 12,
+      "counts": [
+        0,
+        5,
+        3,
+        4
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "14"
+    },
+    {
+      "residue": 7,
+      "in_range": 12,
+      "counts": [
+        2,
+        3,
+        4,
+        3
+      ],
+      "missing": [],
+      "energy": "2"
+    },
+    {
+      "residue": 8,
+      "in_range": 10,
+      "counts": [
+        4,
+        0,
+        4,
+        2
+      ],
+      "missing": [
+        1
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 9,
+      "in_range": 11,
+      "counts": [
+        4,
+        2,
+        4,
+        1
+      ],
+      "missing": [],
+      "energy": "27/4"
+    },
+    {
+      "residue": 10,
+      "in_range": 12,
+      "counts": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 11,
+      "in_range": 10,
+      "counts": [
+        0,
+        4,
+        2,
+        4
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 13,
+      "in_range": 8,
+      "counts": [
+        2,
+        0,
+        4,
+        2
+      ],
+      "missing": [
+        1
+      ],
+      "energy": "8"
+    },
+    {
+      "residue": 14,
+      "in_range": 12,
+      "counts": [
+        2,
+        3,
+        4,
+        3
+      ],
+      "missing": [],
+      "energy": "2"
+    },
+    {
+      "residue": 15,
+      "in_range": 10,
+      "counts": [
+        3,
+        2,
+        5,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "13"
+    },
+    {
+      "residue": 16,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 17,
+      "in_range": 8,
+      "counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "0"
+    },
+    {
+      "residue": 18,
+      "in_range": 12,
+      "counts": [
+        2,
+        4,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 19,
+      "in_range": 12,
+      "counts": [
+        2,
+        4,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 20,
+      "in_range": 10,
+      "counts": [
+        0,
+        5,
+        3,
+        2
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "13"
+    },
+    {
+      "residue": 21,
+      "in_range": 11,
+      "counts": [
+        2,
+        6,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "59/4"
+    },
+    {
+      "residue": 22,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 23,
+      "in_range": 10,
+      "counts": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "missing": [],
+      "energy": "1"
+    },
+    {
+      "residue": 24,
+      "in_range": 12,
+      "counts": [
+        4,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 25,
+      "in_range": 11,
+      "counts": [
+        2,
+        4,
+        5,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "59/4"
+    },
+    {
+      "residue": 26,
+      "in_range": 12,
+      "counts": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 27,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 28,
+      "in_range": 12,
+      "counts": [
+        2,
+        4,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 29,
+      "in_range": 10,
+      "counts": [
+        3,
+        3,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "9"
+    },
+    {
+      "residue": 31,
+      "in_range": 8,
+      "counts": [
+        0,
+        2,
+        6,
+        0
+      ],
+      "missing": [
+        0,
+        3
+      ],
+      "energy": "24"
+    },
+    {
+      "residue": 32,
+      "in_range": 12,
+      "counts": [
+        2,
+        5,
+        2,
+        3
+      ],
+      "missing": [],
+      "energy": "6"
+    },
+    {
+      "residue": 33,
+      "in_range": 7,
+      "counts": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "3/4"
+    },
+    {
+      "residue": 35,
+      "in_range": 11,
+      "counts": [
+        4,
+        2,
+        1,
+        4
+      ],
+      "missing": [],
+      "energy": "27/4"
+    },
+    {
+      "residue": 36,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        6,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "19"
+    },
+    {
+      "residue": 37,
+      "in_range": 12,
+      "counts": [
+        0,
+        6,
+        4,
+        2
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "20"
+    },
+    {
+      "residue": 38,
+      "in_range": 11,
+      "counts": [
+        3,
+        0,
+        4,
+        4
+      ],
+      "missing": [
+        1
+      ],
+      "energy": "43/4"
+    },
+    {
+      "residue": 40,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 41,
+      "in_range": 8,
+      "counts": [
+        4,
+        0,
+        2,
+        2
+      ],
+      "missing": [
+        1
+      ],
+      "energy": "8"
+    },
+    {
+      "residue": 42,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 43,
+      "in_range": 10,
+      "counts": [
+        0,
+        4,
+        4,
+        2
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 44,
+      "in_range": 11,
+      "counts": [
+        2,
+        2,
+        4,
+        3
+      ],
+      "missing": [],
+      "energy": "11/4"
+    },
+    {
+      "residue": 46,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 47,
+      "in_range": 8,
+      "counts": [
+        2,
+        0,
+        4,
+        2
+      ],
+      "missing": [
+        1
+      ],
+      "energy": "8"
+    },
+    {
+      "residue": 48,
+      "in_range": 10,
+      "counts": [
+        2,
+        5,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "9"
+    },
+    {
+      "residue": 49,
+      "in_range": 11,
+      "counts": [
+        3,
+        4,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "11/4"
+    },
+    {
+      "residue": 50,
+      "in_range": 12,
+      "counts": [
+        0,
+        6,
+        4,
+        2
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "20"
+    },
+    {
+      "residue": 51,
+      "in_range": 10,
+      "counts": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "5"
+    },
+    {
+      "residue": 52,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 53,
+      "in_range": 8,
+      "counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "0"
+    },
+    {
+      "residue": 54,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 55,
+      "in_range": 12,
+      "counts": [
+        2,
+        4,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 56,
+      "in_range": 9,
+      "counts": [
+        2,
+        4,
+        2,
+        1
+      ],
+      "missing": [],
+      "energy": "19/4"
+    },
+    {
+      "residue": 57,
+      "in_range": 12,
+      "counts": [
+        2,
+        6,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "12"
+    },
+    {
+      "residue": 58,
+      "in_range": 10,
+      "counts": [
+        0,
+        4,
+        4,
+        2
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 59,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 60,
+      "in_range": 8,
+      "counts": [
+        2,
+        1,
+        3,
+        2
+      ],
+      "missing": [],
+      "energy": "2"
+    },
+    {
+      "residue": 61,
+      "in_range": 9,
+      "counts": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "51/4"
+    },
+    {
+      "residue": 62,
+      "in_range": 8,
+      "counts": [
+        4,
+        2,
+        2,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "8"
+    },
+    {
+      "residue": 63,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 65,
+      "in_range": 12,
+      "counts": [
+        2,
+        6,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "12"
+    },
+    {
+      "residue": 66,
+      "in_range": 9,
+      "counts": [
+        0,
+        5,
+        4,
+        0
+      ],
+      "missing": [
+        0,
+        3
+      ],
+      "energy": "83/4"
+    },
+    {
+      "residue": 67,
+      "in_range": 8,
+      "counts": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "2"
+    },
+    {
+      "residue": 68,
+      "in_range": 8,
+      "counts": [
+        4,
+        1,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "6"
+    },
+    {
+      "residue": 69,
+      "in_range": 10,
+      "counts": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "missing": [],
+      "energy": "5"
+    },
+    {
+      "residue": 70,
+      "in_range": 11,
+      "counts": [
+        0,
+        6,
+        5,
+        0
+      ],
+      "missing": [
+        0,
+        3
+      ],
+      "energy": "123/4"
+    },
+    {
+      "residue": 71,
+      "in_range": 11,
+      "counts": [
+        2,
+        4,
+        2,
+        3
+      ],
+      "missing": [],
+      "energy": "11/4"
+    },
+    {
+      "residue": 72,
+      "in_range": 11,
+      "counts": [
+        4,
+        2,
+        4,
+        1
+      ],
+      "missing": [],
+      "energy": "27/4"
+    },
+    {
+      "residue": 73,
+      "in_range": 8,
+      "counts": [
+        0,
+        6,
+        2,
+        0
+      ],
+      "missing": [
+        0,
+        3
+      ],
+      "energy": "24"
+    },
+    {
+      "residue": 74,
+      "in_range": 10,
+      "counts": [
+        0,
+        4,
+        2,
+        4
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 75,
+      "in_range": 10,
+      "counts": [
+        0,
+        4,
+        6,
+        0
+      ],
+      "missing": [
+        0,
+        3
+      ],
+      "energy": "27"
+    },
+    {
+      "residue": 76,
+      "in_range": 8,
+      "counts": [
+        4,
+        2,
+        2,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "8"
+    },
+    {
+      "residue": 77,
+      "in_range": 12,
+      "counts": [
+        3,
+        5,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "14"
+    },
+    {
+      "residue": 78,
+      "in_range": 12,
+      "counts": [
+        4,
+        3,
+        2,
+        3
+      ],
+      "missing": [],
+      "energy": "2"
+    },
+    {
+      "residue": 79,
+      "in_range": 10,
+      "counts": [
+        2,
+        3,
+        3,
+        2
+      ],
+      "missing": [],
+      "energy": "1"
+    },
+    {
+      "residue": 80,
+      "in_range": 12,
+      "counts": [
+        0,
+        6,
+        2,
+        4
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "20"
+    },
+    {
+      "residue": 81,
+      "in_range": 11,
+      "counts": [
+        3,
+        4,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "11/4"
+    },
+    {
+      "residue": 82,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 83,
+      "in_range": 9,
+      "counts": [
+        3,
+        4,
+        2,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "35/4"
+    },
+    {
+      "residue": 84,
+      "in_range": 11,
+      "counts": [
+        2,
+        4,
+        3,
+        2
+      ],
+      "missing": [],
+      "energy": "11/4"
+    },
+    {
+      "residue": 85,
+      "in_range": 9,
+      "counts": [
+        2,
+        0,
+        4,
+        3
+      ],
+      "missing": [
+        1
+      ],
+      "energy": "35/4"
+    },
+    {
+      "residue": 86,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 87,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        0,
+        4
+      ],
+      "missing": [
+        2
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 88,
+      "in_range": 12,
+      "counts": [
+        4,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "4"
+    },
+    {
+      "residue": 89,
+      "in_range": 12,
+      "counts": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "missing": [],
+      "energy": "18"
+    },
+    {
+      "residue": 90,
+      "in_range": 12,
+      "counts": [
+        2,
+        6,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "12"
+    },
+    {
+      "residue": 91,
+      "in_range": 11,
+      "counts": [
+        6,
+        2,
+        1,
+        2
+      ],
+      "missing": [],
+      "energy": "59/4"
+    },
+    {
+      "residue": 92,
+      "in_range": 12,
+      "counts": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "6"
+    },
+    {
+      "residue": 93,
+      "in_range": 9,
+      "counts": [
+        4,
+        1,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "19/4"
+    },
+    {
+      "residue": 94,
+      "in_range": 12,
+      "counts": [
+        3,
+        3,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "2"
+    },
+    {
+      "residue": 95,
+      "in_range": 8,
+      "counts": [
+        0,
+        4,
+        2,
+        2
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "8"
+    },
+    {
+      "residue": 97,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 98,
+      "in_range": 10,
+      "counts": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "5"
+    },
+    {
+      "residue": 99,
+      "in_range": 11,
+      "counts": [
+        4,
+        2,
+        2,
+        3
+      ],
+      "missing": [],
+      "energy": "11/4"
+    },
+    {
+      "residue": 100,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 101,
+      "in_range": 10,
+      "counts": [
+        0,
+        5,
+        2,
+        3
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "13"
+    },
+    {
+      "residue": 102,
+      "in_range": 12,
+      "counts": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "20"
+    },
+    {
+      "residue": 103,
+      "in_range": 7,
+      "counts": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "missing": [],
+      "energy": "3/4"
+    },
+    {
+      "residue": 104,
+      "in_range": 12,
+      "counts": [
+        2,
+        6,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "20"
+    },
+    {
+      "residue": 105,
+      "in_range": 10,
+      "counts": [
+        1,
+        4,
+        5,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "17"
+    },
+    {
+      "residue": 106,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 107,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 109,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 110,
+      "in_range": 12,
+      "counts": [
+        2,
+        6,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "12"
+    },
+    {
+      "residue": 111,
+      "in_range": 8,
+      "counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "0"
+    },
+    {
+      "residue": 112,
+      "in_range": 9,
+      "counts": [
+        0,
+        4,
+        4,
+        1
+      ],
+      "missing": [
+        0
+      ],
+      "energy": "51/4"
+    },
+    {
+      "residue": 113,
+      "in_range": 10,
+      "counts": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 114,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 115,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "missing": [],
+      "energy": "5"
+    },
+    {
+      "residue": 116,
+      "in_range": 10,
+      "counts": [
+        2,
+        6,
+        2,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "19"
+    },
+    {
+      "residue": 117,
+      "in_range": 10,
+      "counts": [
+        4,
+        4,
+        0,
+        2
+      ],
+      "missing": [
+        2
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 118,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 119,
+      "in_range": 9,
+      "counts": [
+        1,
+        2,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "19/4"
+    },
+    {
+      "residue": 120,
+      "in_range": 11,
+      "counts": [
+        1,
+        4,
+        4,
+        2
+      ],
+      "missing": [],
+      "energy": "27/4"
+    },
+    {
+      "residue": 121,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 123,
+      "in_range": 10,
+      "counts": [
+        4,
+        4,
+        2,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 126,
+      "in_range": 7,
+      "counts": [
+        1,
+        4,
+        0,
+        2
+      ],
+      "missing": [
+        2
+      ],
+      "energy": "35/4"
+    },
+    {
+      "residue": 127,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        3,
+        1
+      ],
+      "missing": [],
+      "energy": "5"
+    },
+    {
+      "residue": 128,
+      "in_range": 9,
+      "counts": [
+        4,
+        1,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "51/4"
+    },
+    {
+      "residue": 129,
+      "in_range": 10,
+      "counts": [
+        3,
+        4,
+        3,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "9"
+    },
+    {
+      "residue": 130,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "missing": [],
+      "energy": "3"
+    },
+    {
+      "residue": 131,
+      "in_range": 10,
+      "counts": [
+        4,
+        2,
+        4,
+        0
+      ],
+      "missing": [
+        3
+      ],
+      "energy": "11"
+    },
+    {
+      "residue": 133,
+      "in_range": 10,
+      "counts": [
+        2,
+        4,
+        0,
+        4
+      ],
+      "missing": [
+        2
+      ],
+      "energy": "11"
+    }
+  ]
+}
