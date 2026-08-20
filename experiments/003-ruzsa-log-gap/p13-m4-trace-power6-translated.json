@@ -1,0 +1,1175 @@
+{
+  "method": "translated_height_witness",
+  "source_method": "finite_field_linear_trace",
+  "source_power": 6,
+  "p": 13,
+  "q": 183,
+  "layers": 4,
+  "best_shift": 181,
+  "missing_classes": 67,
+  "covered": 598,
+  "total": 676,
+  "marks": [
+    6,
+    12,
+    17,
+    31,
+    59,
+    61,
+    62,
+    69,
+    85,
+    98,
+    102,
+    120,
+    168,
+    180
+  ],
+  "heights": [
+    1,
+    3,
+    2,
+    2,
+    2,
+    3,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2
+  ],
+  "missing": {
+    "3": [
+      3
+    ],
+    "4": [
+      3
+    ],
+    "5": [
+      1
+    ],
+    "7": [
+      1
+    ],
+    "8": [
+      0,
+      1
+    ],
+    "10": [
+      0
+    ],
+    "13": [
+      0
+    ],
+    "18": [
+      3
+    ],
+    "21": [
+      0
+    ],
+    "23": [
+      0
+    ],
+    "25": [
+      2
+    ],
+    "28": [
+      1
+    ],
+    "29": [
+      0
+    ],
+    "30": [
+      0,
+      1
+    ],
+    "32": [
+      1,
+      3
+    ],
+    "33": [
+      0
+    ],
+    "34": [
+      0
+    ],
+    "37": [
+      2
+    ],
+    "40": [
+      1
+    ],
+    "42": [
+      0
+    ],
+    "43": [
+      0
+    ],
+    "46": [
+      0
+    ],
+    "47": [
+      0
+    ],
+    "48": [
+      0
+    ],
+    "55": [
+      3
+    ],
+    "56": [
+      0
+    ],
+    "57": [
+      0
+    ],
+    "64": [
+      0
+    ],
+    "66": [
+      0
+    ],
+    "67": [
+      3
+    ],
+    "71": [
+      0
+    ],
+    "75": [
+      0,
+      2
+    ],
+    "79": [
+      0,
+      3
+    ],
+    "80": [
+      1
+    ],
+    "82": [
+      3
+    ],
+    "89": [
+      0
+    ],
+    "90": [
+      3
+    ],
+    "92": [
+      0,
+      3
+    ],
+    "96": [
+      1
+    ],
+    "99": [
+      0
+    ],
+    "105": [
+      3
+    ],
+    "107": [
+      1,
+      3
+    ],
+    "112": [
+      0
+    ],
+    "114": [
+      2
+    ],
+    "115": [
+      0
+    ],
+    "116": [
+      3
+    ],
+    "119": [
+      3
+    ],
+    "122": [
+      2
+    ],
+    "123": [
+      0
+    ],
+    "126": [
+      0
+    ],
+    "130": [
+      3
+    ],
+    "136": [
+      2
+    ],
+    "143": [
+      3
+    ],
+    "144": [
+      3
+    ],
+    "149": [
+      2
+    ],
+    "150": [
+      0,
+      2
+    ],
+    "154": [
+      0
+    ],
+    "158": [
+      0,
+      3
+    ],
+    "163": [
+      0
+    ],
+    "167": [
+      0,
+      3
+    ],
+    "171": [
+      0,
+      3
+    ],
+    "173": [
+      2
+    ],
+    "174": [
+      3
+    ],
+    "175": [
+      1
+    ],
+    "177": [
+      2
+    ],
+    "179": [
+      2
+    ],
+    "181": [
+      3
+    ]
+  },
+  "shift_scan": [
+    {
+      "shift": 0,
+      "missing_classes": 68,
+      "covered": 597
+    },
+    {
+      "shift": 1,
+      "missing_classes": 68,
+      "covered": 597
+    },
+    {
+      "shift": 2,
+      "missing_classes": 91,
+      "covered": 572
+    },
+    {
+      "shift": 3,
+      "missing_classes": 91,
+      "covered": 572
+    },
+    {
+      "shift": 4,
+      "missing_classes": 91,
+      "covered": 572
+    },
+    {
+      "shift": 5,
+      "missing_classes": 91,
+      "covered": 571
+    },
+    {
+      "shift": 6,
+      "missing_classes": 92,
+      "covered": 570
+    },
+    {
+      "shift": 7,
+      "missing_classes": 92,
+      "covered": 570
+    },
+    {
+      "shift": 8,
+      "missing_classes": 92,
+      "covered": 571
+    },
+    {
+      "shift": 9,
+      "missing_classes": 92,
+      "covered": 570
+    },
+    {
+      "shift": 10,
+      "missing_classes": 92,
+      "covered": 570
+    },
+    {
+      "shift": 11,
+      "missing_classes": 92,
+      "covered": 571
+    },
+    {
+      "shift": 12,
+      "missing_classes": 92,
+      "covered": 570
+    },
+    {
+      "shift": 13,
+      "missing_classes": 92,
+      "covered": 569
+    },
+    {
+      "shift": 14,
+      "missing_classes": 84,
+      "covered": 580
+    },
+    {
+      "shift": 15,
+      "missing_classes": 84,
+      "covered": 580
+    },
+    {
+      "shift": 16,
+      "missing_classes": 85,
+      "covered": 579
+    },
+    {
+      "shift": 17,
+      "missing_classes": 85,
+      "covered": 579
+    },
+    {
+      "shift": 18,
+      "missing_classes": 85,
+      "covered": 579
+    },
+    {
+      "shift": 19,
+      "missing_classes": 86,
+      "covered": 578
+    },
+    {
+      "shift": 20,
+      "missing_classes": 86,
+      "covered": 578
+    },
+    {
+      "shift": 21,
+      "missing_classes": 86,
+      "covered": 578
+    },
+    {
+      "shift": 22,
+      "missing_classes": 86,
+      "covered": 578
+    },
+    {
+      "shift": 23,
+      "missing_classes": 86,
+      "covered": 578
+    },
+    {
+      "shift": 24,
+      "missing_classes": 85,
+      "covered": 579
+    },
+    {
+      "shift": 25,
+      "missing_classes": 86,
+      "covered": 578
+    },
+    {
+      "shift": 26,
+      "missing_classes": 87,
+      "covered": 577
+    },
+    {
+      "shift": 27,
+      "missing_classes": 88,
+      "covered": 576
+    },
+    {
+      "shift": 28,
+      "missing_classes": 88,
+      "covered": 577
+    },
+    {
+      "shift": 29,
+      "missing_classes": 89,
+      "covered": 576
+    },
+    {
+      "shift": 30,
+      "missing_classes": 89,
+      "covered": 576
+    },
+    {
+      "shift": 31,
+      "missing_classes": 89,
+      "covered": 576
+    },
+    {
+      "shift": 32,
+      "missing_classes": 89,
+      "covered": 575
+    },
+    {
+      "shift": 33,
+      "missing_classes": 89,
+      "covered": 575
+    },
+    {
+      "shift": 34,
+      "missing_classes": 89,
+      "covered": 575
+    },
+    {
+      "shift": 35,
+      "missing_classes": 90,
+      "covered": 574
+    },
+    {
+      "shift": 36,
+      "missing_classes": 90,
+      "covered": 574
+    },
+    {
+      "shift": 37,
+      "missing_classes": 90,
+      "covered": 574
+    },
+    {
+      "shift": 38,
+      "missing_classes": 91,
+      "covered": 573
+    },
+    {
+      "shift": 39,
+      "missing_classes": 91,
+      "covered": 573
+    },
+    {
+      "shift": 40,
+      "missing_classes": 92,
+      "covered": 572
+    },
+    {
+      "shift": 41,
+      "missing_classes": 93,
+      "covered": 571
+    },
+    {
+      "shift": 42,
+      "missing_classes": 94,
+      "covered": 570
+    },
+    {
+      "shift": 43,
+      "missing_classes": 94,
+      "covered": 570
+    },
+    {
+      "shift": 44,
+      "missing_classes": 95,
+      "covered": 569
+    },
+    {
+      "shift": 45,
+      "missing_classes": 95,
+      "covered": 569
+    },
+    {
+      "shift": 46,
+      "missing_classes": 95,
+      "covered": 569
+    },
+    {
+      "shift": 47,
+      "missing_classes": 95,
+      "covered": 569
+    },
+    {
+      "shift": 48,
+      "missing_classes": 95,
+      "covered": 569
+    },
+    {
+      "shift": 49,
+      "missing_classes": 95,
+      "covered": 568
+    },
+    {
+      "shift": 50,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 51,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 52,
+      "missing_classes": 97,
+      "covered": 566
+    },
+    {
+      "shift": 53,
+      "missing_classes": 97,
+      "covered": 566
+    },
+    {
+      "shift": 54,
+      "missing_classes": 98,
+      "covered": 565
+    },
+    {
+      "shift": 55,
+      "missing_classes": 99,
+      "covered": 564
+    },
+    {
+      "shift": 56,
+      "missing_classes": 99,
+      "covered": 565
+    },
+    {
+      "shift": 57,
+      "missing_classes": 99,
+      "covered": 566
+    },
+    {
+      "shift": 58,
+      "missing_classes": 100,
+      "covered": 565
+    },
+    {
+      "shift": 59,
+      "missing_classes": 101,
+      "covered": 564
+    },
+    {
+      "shift": 60,
+      "missing_classes": 101,
+      "covered": 564
+    },
+    {
+      "shift": 61,
+      "missing_classes": 101,
+      "covered": 564
+    },
+    {
+      "shift": 62,
+      "missing_classes": 105,
+      "covered": 555
+    },
+    {
+      "shift": 63,
+      "missing_classes": 106,
+      "covered": 554
+    },
+    {
+      "shift": 64,
+      "missing_classes": 107,
+      "covered": 553
+    },
+    {
+      "shift": 65,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 66,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 67,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 68,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 69,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 70,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 71,
+      "missing_classes": 108,
+      "covered": 552
+    },
+    {
+      "shift": 72,
+      "missing_classes": 109,
+      "covered": 551
+    },
+    {
+      "shift": 73,
+      "missing_classes": 109,
+      "covered": 551
+    },
+    {
+      "shift": 74,
+      "missing_classes": 109,
+      "covered": 550
+    },
+    {
+      "shift": 75,
+      "missing_classes": 110,
+      "covered": 549
+    },
+    {
+      "shift": 76,
+      "missing_classes": 111,
+      "covered": 548
+    },
+    {
+      "shift": 77,
+      "missing_classes": 111,
+      "covered": 548
+    },
+    {
+      "shift": 78,
+      "missing_classes": 112,
+      "covered": 547
+    },
+    {
+      "shift": 79,
+      "missing_classes": 112,
+      "covered": 547
+    },
+    {
+      "shift": 80,
+      "missing_classes": 86,
+      "covered": 572
+    },
+    {
+      "shift": 81,
+      "missing_classes": 86,
+      "covered": 572
+    },
+    {
+      "shift": 82,
+      "missing_classes": 86,
+      "covered": 573
+    },
+    {
+      "shift": 83,
+      "missing_classes": 86,
+      "covered": 573
+    },
+    {
+      "shift": 84,
+      "missing_classes": 98,
+      "covered": 564
+    },
+    {
+      "shift": 85,
+      "missing_classes": 98,
+      "covered": 563
+    },
+    {
+      "shift": 86,
+      "missing_classes": 98,
+      "covered": 563
+    },
+    {
+      "shift": 87,
+      "missing_classes": 98,
+      "covered": 563
+    },
+    {
+      "shift": 88,
+      "missing_classes": 99,
+      "covered": 562
+    },
+    {
+      "shift": 89,
+      "missing_classes": 100,
+      "covered": 561
+    },
+    {
+      "shift": 90,
+      "missing_classes": 101,
+      "covered": 560
+    },
+    {
+      "shift": 91,
+      "missing_classes": 101,
+      "covered": 560
+    },
+    {
+      "shift": 92,
+      "missing_classes": 101,
+      "covered": 560
+    },
+    {
+      "shift": 93,
+      "missing_classes": 101,
+      "covered": 559
+    },
+    {
+      "shift": 94,
+      "missing_classes": 101,
+      "covered": 559
+    },
+    {
+      "shift": 95,
+      "missing_classes": 101,
+      "covered": 559
+    },
+    {
+      "shift": 96,
+      "missing_classes": 101,
+      "covered": 559
+    },
+    {
+      "shift": 97,
+      "missing_classes": 98,
+      "covered": 553
+    },
+    {
+      "shift": 98,
+      "missing_classes": 98,
+      "covered": 553
+    },
+    {
+      "shift": 99,
+      "missing_classes": 98,
+      "covered": 553
+    },
+    {
+      "shift": 100,
+      "missing_classes": 98,
+      "covered": 553
+    },
+    {
+      "shift": 101,
+      "missing_classes": 99,
+      "covered": 552
+    },
+    {
+      "shift": 102,
+      "missing_classes": 99,
+      "covered": 552
+    },
+    {
+      "shift": 103,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 104,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 105,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 106,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 107,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 108,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 109,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 110,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 111,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 112,
+      "missing_classes": 99,
+      "covered": 551
+    },
+    {
+      "shift": 113,
+      "missing_classes": 102,
+      "covered": 559
+    },
+    {
+      "shift": 114,
+      "missing_classes": 102,
+      "covered": 559
+    },
+    {
+      "shift": 115,
+      "missing_classes": 102,
+      "covered": 559
+    },
+    {
+      "shift": 116,
+      "missing_classes": 103,
+      "covered": 558
+    },
+    {
+      "shift": 117,
+      "missing_classes": 103,
+      "covered": 558
+    },
+    {
+      "shift": 118,
+      "missing_classes": 103,
+      "covered": 558
+    },
+    {
+      "shift": 119,
+      "missing_classes": 103,
+      "covered": 558
+    },
+    {
+      "shift": 120,
+      "missing_classes": 107,
+      "covered": 538
+    },
+    {
+      "shift": 121,
+      "missing_classes": 102,
+      "covered": 554
+    },
+    {
+      "shift": 122,
+      "missing_classes": 102,
+      "covered": 554
+    },
+    {
+      "shift": 123,
+      "missing_classes": 105,
+      "covered": 552
+    },
+    {
+      "shift": 124,
+      "missing_classes": 105,
+      "covered": 552
+    },
+    {
+      "shift": 125,
+      "missing_classes": 105,
+      "covered": 552
+    },
+    {
+      "shift": 126,
+      "missing_classes": 106,
+      "covered": 551
+    },
+    {
+      "shift": 127,
+      "missing_classes": 106,
+      "covered": 551
+    },
+    {
+      "shift": 128,
+      "missing_classes": 106,
+      "covered": 551
+    },
+    {
+      "shift": 129,
+      "missing_classes": 106,
+      "covered": 551
+    },
+    {
+      "shift": 130,
+      "missing_classes": 106,
+      "covered": 550
+    },
+    {
+      "shift": 131,
+      "missing_classes": 106,
+      "covered": 550
+    },
+    {
+      "shift": 132,
+      "missing_classes": 105,
+      "covered": 551
+    },
+    {
+      "shift": 133,
+      "missing_classes": 106,
+      "covered": 550
+    },
+    {
+      "shift": 134,
+      "missing_classes": 106,
+      "covered": 549
+    },
+    {
+      "shift": 135,
+      "missing_classes": 105,
+      "covered": 550
+    },
+    {
+      "shift": 136,
+      "missing_classes": 105,
+      "covered": 549
+    },
+    {
+      "shift": 137,
+      "missing_classes": 106,
+      "covered": 548
+    },
+    {
+      "shift": 138,
+      "missing_classes": 106,
+      "covered": 548
+    },
+    {
+      "shift": 139,
+      "missing_classes": 106,
+      "covered": 548
+    },
+    {
+      "shift": 140,
+      "missing_classes": 106,
+      "covered": 547
+    },
+    {
+      "shift": 141,
+      "missing_classes": 106,
+      "covered": 547
+    },
+    {
+      "shift": 142,
+      "missing_classes": 106,
+      "covered": 547
+    },
+    {
+      "shift": 143,
+      "missing_classes": 106,
+      "covered": 546
+    },
+    {
+      "shift": 144,
+      "missing_classes": 107,
+      "covered": 545
+    },
+    {
+      "shift": 145,
+      "missing_classes": 106,
+      "covered": 546
+    },
+    {
+      "shift": 146,
+      "missing_classes": 106,
+      "covered": 547
+    },
+    {
+      "shift": 147,
+      "missing_classes": 106,
+      "covered": 547
+    },
+    {
+      "shift": 148,
+      "missing_classes": 106,
+      "covered": 547
+    },
+    {
+      "shift": 149,
+      "missing_classes": 106,
+      "covered": 546
+    },
+    {
+      "shift": 150,
+      "missing_classes": 106,
+      "covered": 546
+    },
+    {
+      "shift": 151,
+      "missing_classes": 110,
+      "covered": 544
+    },
+    {
+      "shift": 152,
+      "missing_classes": 110,
+      "covered": 544
+    },
+    {
+      "shift": 153,
+      "missing_classes": 111,
+      "covered": 543
+    },
+    {
+      "shift": 154,
+      "missing_classes": 111,
+      "covered": 543
+    },
+    {
+      "shift": 155,
+      "missing_classes": 111,
+      "covered": 543
+    },
+    {
+      "shift": 156,
+      "missing_classes": 111,
+      "covered": 543
+    },
+    {
+      "shift": 157,
+      "missing_classes": 111,
+      "covered": 543
+    },
+    {
+      "shift": 158,
+      "missing_classes": 111,
+      "covered": 543
+    },
+    {
+      "shift": 159,
+      "missing_classes": 111,
+      "covered": 544
+    },
+    {
+      "shift": 160,
+      "missing_classes": 112,
+      "covered": 543
+    },
+    {
+      "shift": 161,
+      "missing_classes": 112,
+      "covered": 543
+    },
+    {
+      "shift": 162,
+      "missing_classes": 112,
+      "covered": 543
+    },
+    {
+      "shift": 163,
+      "missing_classes": 112,
+      "covered": 543
+    },
+    {
+      "shift": 164,
+      "missing_classes": 112,
+      "covered": 542
+    },
+    {
+      "shift": 165,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 166,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 167,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 168,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 169,
+      "missing_classes": 96,
+      "covered": 567
+    },
+    {
+      "shift": 170,
+      "missing_classes": 95,
+      "covered": 567
+    },
+    {
+      "shift": 171,
+      "missing_classes": 95,
+      "covered": 567
+    },
+    {
+      "shift": 172,
+      "missing_classes": 95,
+      "covered": 567
+    },
+    {
+      "shift": 173,
+      "missing_classes": 95,
+      "covered": 567
+    },
+    {
+      "shift": 174,
+      "missing_classes": 95,
+      "covered": 567
+    },
+    {
+      "shift": 175,
+      "missing_classes": 95,
+      "covered": 567
+    },
+    {
+      "shift": 176,
+      "missing_classes": 68,
+      "covered": 596
+    },
+    {
+      "shift": 177,
+      "missing_classes": 68,
+      "covered": 597
+    },
+    {
+      "shift": 178,
+      "missing_classes": 68,
+      "covered": 597
+    },
+    {
+      "shift": 179,
+      "missing_classes": 68,
+      "covered": 597
+    },
+    {
+      "shift": 180,
+      "missing_classes": 68,
+      "covered": 597
+    },
+    {
+      "shift": 181,
+      "missing_classes": 67,
+      "covered": 598
+    },
+    {
+      "shift": 182,
+      "missing_classes": 68,
+      "covered": 597
+    }
+  ]
+}

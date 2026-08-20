@@ -1,0 +1,2287 @@
+{
+  "p": 13,
+  "q": 183,
+  "layers": 4,
+  "source_method": "finite_field_linear_trace",
+  "source_power": 6,
+  "good_classes": 101,
+  "bad_classes": 68,
+  "average_pure_covered": 3.544378698224852,
+  "average_true_covered": 3.532544378698225,
+  "average_carry_gain": -0.011834319526627219,
+  "carry_gain_histogram": {
+    "-2": 3,
+    "-1": 34,
+    "0": 95,
+    "1": 36,
+    "2": 1
+  },
+  "carry_support_histogram": {
+    "1": 2,
+    "2": 103,
+    "3": 64
+  },
+  "correlation_pure_true": 0.23472788106471007,
+  "correlation_carry_support_gain": 0.12681893213956386,
+  "rows": [
+    {
+      "residue": 1,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 2,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 3,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 9,
+        "1": 5
+      },
+      "good": true
+    },
+    {
+      "residue": 4,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 5,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 6,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 7,
+        "1": 7
+      },
+      "good": false
+    },
+    {
+      "residue": 7,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 9,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 9,
+        "1": 5
+      },
+      "good": false
+    },
+    {
+      "residue": 10,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 11,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 12,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 13,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 15,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 16,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 17,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 8,
+        "1": 5
+      },
+      "good": true
+    },
+    {
+      "residue": 18,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 20,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 21,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 22,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 23,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 24,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 25,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 8,
+        "1": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 26,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 27,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 3,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 28,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 7,
+        "1": 5
+      },
+      "good": true
+    },
+    {
+      "residue": 29,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 6,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 6,
+        "1": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 30,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 31,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 32,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 34,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 35,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 7,
+        "1": 5
+      },
+      "good": false
+    },
+    {
+      "residue": 36,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 37,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 38,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 39,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 9,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 40,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 41,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 9,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 42,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 7,
+        "1": 5
+      },
+      "good": false
+    },
+    {
+      "residue": 43,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 44,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 45,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 46,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 47,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 11,
+        "1": 3
+      },
+      "good": true
+    },
+    {
+      "residue": 48,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 49,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 50,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 51,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 11,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 52,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 53,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 54,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 55,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 56,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 57,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 11,
+        "1": 3
+      },
+      "good": false
+    },
+    {
+      "residue": 58,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 59,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 13,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 60,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 62,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 65,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 66,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 10,
+        "1": 4
+      },
+      "good": false
+    },
+    {
+      "residue": 67,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 11,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 68,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 69,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "0": 12,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 70,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 9,
+        "1": 3
+      },
+      "good": true
+    },
+    {
+      "residue": 72,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 8,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 73,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 74,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 1,
+      "carry_histogram": {
+        "0": 14
+      },
+      "good": true
+    },
+    {
+      "residue": 75,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 1,
+      "carry_histogram": {
+        "0": 14
+      },
+      "good": true
+    },
+    {
+      "residue": 76,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 77,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 10,
+        "1": 3
+      },
+      "good": false
+    },
+    {
+      "residue": 78,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 79,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 3,
+        "0": 9,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 80,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 81,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 11,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 82,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 83,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 84,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 2,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 85,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 6,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 86,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 11,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 88,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 89,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 11,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 90,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 91,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 92,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": false
+    },
+    {
+      "residue": 93,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 11,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 94,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 95,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 5,
+        "1": 4
+      },
+      "good": true
+    },
+    {
+      "residue": 96,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 9,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 97,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": true
+    },
+    {
+      "residue": 98,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 99,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": true
+    },
+    {
+      "residue": 101,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 102,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 103,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": true
+    },
+    {
+      "residue": 105,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 6,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 106,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 10,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 107,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 7,
+        "1": 2
+      },
+      "good": false
+    },
+    {
+      "residue": 108,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 109,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 2,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": false
+    },
+    {
+      "residue": 110,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 9,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 111,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 1,
+        "0": 13
+      },
+      "good": true
+    },
+    {
+      "residue": 112,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 3,
+        "0": 11
+      },
+      "good": true
+    },
+    {
+      "residue": 113,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 8,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 114,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": false
+    },
+    {
+      "residue": 115,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": true
+    },
+    {
+      "residue": 116,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 12
+      },
+      "good": false
+    },
+    {
+      "residue": 117,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 3,
+        "0": 10,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 118,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 2,
+        "0": 11,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 119,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 120,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 9,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 121,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": false
+    },
+    {
+      "residue": 123,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 3,
+        "0": 11
+      },
+      "good": true
+    },
+    {
+      "residue": 124,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 8,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 125,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": false
+    },
+    {
+      "residue": 126,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 127,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 128,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 3,
+        "0": 11
+      },
+      "good": false
+    },
+    {
+      "residue": 129,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 3,
+        "0": 11
+      },
+      "good": true
+    },
+    {
+      "residue": 130,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 131,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 132,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": false
+    },
+    {
+      "residue": 133,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 134,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": true
+    },
+    {
+      "residue": 135,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 136,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 5,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 137,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 138,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 6,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 139,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": true
+    },
+    {
+      "residue": 140,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": true
+    },
+    {
+      "residue": 141,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": true
+    },
+    {
+      "residue": 142,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 143,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 6,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 144,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 145,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": false
+    },
+    {
+      "residue": 146,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": false
+    },
+    {
+      "residue": 147,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 6,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": true
+    },
+    {
+      "residue": 148,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 6,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 149,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 6,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 150,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 6,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 151,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 3,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": false
+    },
+    {
+      "residue": 152,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 3,
+      "pure_covered": 4,
+      "true_covered": 2,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": false
+    },
+    {
+      "residue": 153,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 4,
+        "0": 10
+      },
+      "good": true
+    },
+    {
+      "residue": 154,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 155,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 5,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 156,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": false
+    },
+    {
+      "residue": 157,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": true
+    },
+    {
+      "residue": 158,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 7
+      },
+      "good": true
+    },
+    {
+      "residue": 159,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 160,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 2,
+      "true_covered": 2,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 5,
+        "0": 9
+      },
+      "good": false
+    },
+    {
+      "residue": 161,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 6,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 4,
+        "1": 2
+      },
+      "good": true
+    },
+    {
+      "residue": 162,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 9,
+        "0": 4,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 163,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 164,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 165,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 166,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 7
+      },
+      "good": true
+    },
+    {
+      "residue": 167,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 7,
+        "1": 1
+      },
+      "good": true
+    },
+    {
+      "residue": 168,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 169,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 2,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 171,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 172,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": true
+    },
+    {
+      "residue": 173,
+      "pure_unique_levels": 6,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 2,
+      "carry_support": 3,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 5,
+        "1": 1
+      },
+      "good": false
+    },
+    {
+      "residue": 174,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 3,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 175,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 7
+      },
+      "good": false
+    },
+    {
+      "residue": 176,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 4,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 177,
+      "pure_unique_levels": 5,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 6,
+        "0": 8
+      },
+      "good": false
+    },
+    {
+      "residue": 178,
+      "pure_unique_levels": 3,
+      "true_unique_levels": 4,
+      "pure_covered": 2,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": true
+    },
+    {
+      "residue": 179,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 3,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 180,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 4,
+      "true_covered": 4,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 9,
+        "0": 5
+      },
+      "good": true
+    },
+    {
+      "residue": 181,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 5,
+      "pure_covered": 3,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 8,
+        "0": 6
+      },
+      "good": false
+    },
+    {
+      "residue": 183,
+      "pure_unique_levels": 4,
+      "true_unique_levels": 3,
+      "pure_covered": 4,
+      "true_covered": 3,
+      "carry_support": 2,
+      "carry_histogram": {
+        "-1": 7,
+        "0": 7
+      },
+      "good": false
+    }
+  ]
+}
