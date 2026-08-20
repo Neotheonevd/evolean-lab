@@ -1,0 +1,16 @@
+{
+  "p": 3,
+  "q": 13,
+  "layers": 1,
+  "covered": 9,
+  "total": 9,
+  "perfect": true,
+  "heights": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "missing": {},
+  "method": "exact"
+}
