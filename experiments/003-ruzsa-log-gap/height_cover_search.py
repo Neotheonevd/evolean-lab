@@ -109,9 +109,19 @@ def residue_triples(q: int, marks: tuple[int, ...], residue: int) -> tuple[tuple
         for v, bv in enumerate(marks):
             for w, bw in enumerate(marks):
                 raw = bu + bv - bw
-                if raw % q == residue:
+                if raw % q == residue % q:
                     triples.append((u, v, w, (raw - residue) // q))
     return tuple(triples)
+
+
+@cache
+def verify_representation_model(p: int, marks: tuple[int, ...]) -> bool:
+    q = p * p + p + 1
+    return all(
+        len(residue_triples(q, marks, residue)) == p + 1
+        for residue in range(1, q + 1)
+        if residue not in marks
+    )
 
 
 def coverage(p: int, heights: tuple[int, ...], layers: int,
@@ -120,6 +130,8 @@ def coverage(p: int, heights: tuple[int, ...], layers: int,
     # Ruzsa takes representatives in {1,...,q}; using 0 for the zero residue
     # shifts the boundary layer when N=qM.
     marks = tuple(q if mark == 0 else mark for mark in singer_set(p))
+    if not verify_representation_model(p, marks):
+        raise ValueError("broken Singer triple representation model")
     covered = 0
     total = 0
     missing: dict[int, list[int]] = {}
