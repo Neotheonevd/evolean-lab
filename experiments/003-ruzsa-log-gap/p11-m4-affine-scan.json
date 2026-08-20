@@ -1,0 +1,845 @@
+{
+  "method": "affine_equivalent_difference_set_search",
+  "source_method": "bad_class_cluster_repair",
+  "p": 11,
+  "q": 133,
+  "layers": 4,
+  "best_multiplier": 1,
+  "best_shift": 0,
+  "missing_classes": 49,
+  "covered": 430,
+  "total": 484,
+  "marks": [
+    12,
+    30,
+    34,
+    39,
+    45,
+    64,
+    96,
+    108,
+    122,
+    124,
+    125,
+    132
+  ],
+  "heights": [
+    3,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1
+  ],
+  "missing": {
+    "4": [
+      0
+    ],
+    "6": [
+      0
+    ],
+    "8": [
+      1
+    ],
+    "11": [
+      0
+    ],
+    "13": [
+      1
+    ],
+    "15": [
+      3
+    ],
+    "16": [
+      3
+    ],
+    "20": [
+      0
+    ],
+    "25": [
+      3
+    ],
+    "29": [
+      3
+    ],
+    "31": [
+      0,
+      3
+    ],
+    "36": [
+      3
+    ],
+    "37": [
+      0
+    ],
+    "38": [
+      1
+    ],
+    "41": [
+      1
+    ],
+    "43": [
+      0
+    ],
+    "46": [
+      3
+    ],
+    "47": [
+      1
+    ],
+    "50": [
+      0
+    ],
+    "58": [
+      0
+    ],
+    "61": [
+      3
+    ],
+    "62": [
+      3
+    ],
+    "66": [
+      0,
+      3
+    ],
+    "70": [
+      0,
+      3
+    ],
+    "73": [
+      0,
+      3
+    ],
+    "74": [
+      0
+    ],
+    "75": [
+      0,
+      3
+    ],
+    "76": [
+      3
+    ],
+    "77": [
+      3
+    ],
+    "80": [
+      0
+    ],
+    "82": [
+      3
+    ],
+    "83": [
+      3
+    ],
+    "85": [
+      1
+    ],
+    "87": [
+      2
+    ],
+    "95": [
+      0
+    ],
+    "101": [
+      0
+    ],
+    "102": [
+      3
+    ],
+    "104": [
+      3
+    ],
+    "105": [
+      3
+    ],
+    "112": [
+      0
+    ],
+    "114": [
+      3
+    ],
+    "116": [
+      3
+    ],
+    "117": [
+      2
+    ],
+    "123": [
+      3
+    ],
+    "126": [
+      2
+    ],
+    "128": [
+      3
+    ],
+    "129": [
+      3
+    ],
+    "131": [
+      3
+    ],
+    "133": [
+      2
+    ]
+  },
+  "tested": 14364,
+  "multiplier_summary": [
+    {
+      "multiplier": 1,
+      "best_shift": 0,
+      "missing_classes": 49,
+      "covered": 430
+    },
+    {
+      "multiplier": 2,
+      "best_shift": 116,
+      "missing_classes": 74,
+      "covered": 397
+    },
+    {
+      "multiplier": 3,
+      "best_shift": 21,
+      "missing_classes": 79,
+      "covered": 385
+    },
+    {
+      "multiplier": 4,
+      "best_shift": 0,
+      "missing_classes": 75,
+      "covered": 388
+    },
+    {
+      "multiplier": 5,
+      "best_shift": 74,
+      "missing_classes": 76,
+      "covered": 390
+    },
+    {
+      "multiplier": 6,
+      "best_shift": 5,
+      "missing_classes": 84,
+      "covered": 387
+    },
+    {
+      "multiplier": 8,
+      "best_shift": 64,
+      "missing_classes": 80,
+      "covered": 387
+    },
+    {
+      "multiplier": 9,
+      "best_shift": 54,
+      "missing_classes": 73,
+      "covered": 398
+    },
+    {
+      "multiplier": 10,
+      "best_shift": 74,
+      "missing_classes": 76,
+      "covered": 388
+    },
+    {
+      "multiplier": 11,
+      "best_shift": 9,
+      "missing_classes": 82,
+      "covered": 383
+    },
+    {
+      "multiplier": 12,
+      "best_shift": 129,
+      "missing_classes": 70,
+      "covered": 399
+    },
+    {
+      "multiplier": 13,
+      "best_shift": 50,
+      "missing_classes": 84,
+      "covered": 379
+    },
+    {
+      "multiplier": 15,
+      "best_shift": 87,
+      "missing_classes": 73,
+      "covered": 400
+    },
+    {
+      "multiplier": 16,
+      "best_shift": 128,
+      "missing_classes": 68,
+      "covered": 399
+    },
+    {
+      "multiplier": 17,
+      "best_shift": 3,
+      "missing_classes": 80,
+      "covered": 385
+    },
+    {
+      "multiplier": 18,
+      "best_shift": 14,
+      "missing_classes": 67,
+      "covered": 405
+    },
+    {
+      "multiplier": 20,
+      "best_shift": 47,
+      "missing_classes": 76,
+      "covered": 389
+    },
+    {
+      "multiplier": 22,
+      "best_shift": 18,
+      "missing_classes": 83,
+      "covered": 385
+    },
+    {
+      "multiplier": 23,
+      "best_shift": 74,
+      "missing_classes": 75,
+      "covered": 388
+    },
+    {
+      "multiplier": 24,
+      "best_shift": 129,
+      "missing_classes": 81,
+      "covered": 385
+    },
+    {
+      "multiplier": 25,
+      "best_shift": 93,
+      "missing_classes": 78,
+      "covered": 389
+    },
+    {
+      "multiplier": 26,
+      "best_shift": 96,
+      "missing_classes": 76,
+      "covered": 390
+    },
+    {
+      "multiplier": 27,
+      "best_shift": 27,
+      "missing_classes": 77,
+      "covered": 381
+    },
+    {
+      "multiplier": 29,
+      "best_shift": 98,
+      "missing_classes": 82,
+      "covered": 388
+    },
+    {
+      "multiplier": 30,
+      "best_shift": 40,
+      "missing_classes": 72,
+      "covered": 390
+    },
+    {
+      "multiplier": 31,
+      "best_shift": 69,
+      "missing_classes": 82,
+      "covered": 387
+    },
+    {
+      "multiplier": 32,
+      "best_shift": 22,
+      "missing_classes": 81,
+      "covered": 382
+    },
+    {
+      "multiplier": 33,
+      "best_shift": 5,
+      "missing_classes": 72,
+      "covered": 397
+    },
+    {
+      "multiplier": 34,
+      "best_shift": 16,
+      "missing_classes": 77,
+      "covered": 392
+    },
+    {
+      "multiplier": 36,
+      "best_shift": 118,
+      "missing_classes": 73,
+      "covered": 393
+    },
+    {
+      "multiplier": 37,
+      "best_shift": 117,
+      "missing_classes": 78,
+      "covered": 393
+    },
+    {
+      "multiplier": 39,
+      "best_shift": 108,
+      "missing_classes": 80,
+      "covered": 392
+    },
+    {
+      "multiplier": 40,
+      "best_shift": 58,
+      "missing_classes": 77,
+      "covered": 387
+    },
+    {
+      "multiplier": 41,
+      "best_shift": 41,
+      "missing_classes": 81,
+      "covered": 391
+    },
+    {
+      "multiplier": 43,
+      "best_shift": 67,
+      "missing_classes": 79,
+      "covered": 383
+    },
+    {
+      "multiplier": 44,
+      "best_shift": 22,
+      "missing_classes": 66,
+      "covered": 411
+    },
+    {
+      "multiplier": 45,
+      "best_shift": 2,
+      "missing_classes": 69,
+      "covered": 406
+    },
+    {
+      "multiplier": 46,
+      "best_shift": 106,
+      "missing_classes": 77,
+      "covered": 385
+    },
+    {
+      "multiplier": 47,
+      "best_shift": 106,
+      "missing_classes": 73,
+      "covered": 399
+    },
+    {
+      "multiplier": 48,
+      "best_shift": 127,
+      "missing_classes": 76,
+      "covered": 394
+    },
+    {
+      "multiplier": 50,
+      "best_shift": 14,
+      "missing_classes": 80,
+      "covered": 378
+    },
+    {
+      "multiplier": 51,
+      "best_shift": 57,
+      "missing_classes": 80,
+      "covered": 380
+    },
+    {
+      "multiplier": 52,
+      "best_shift": 17,
+      "missing_classes": 80,
+      "covered": 382
+    },
+    {
+      "multiplier": 53,
+      "best_shift": 48,
+      "missing_classes": 79,
+      "covered": 395
+    },
+    {
+      "multiplier": 54,
+      "best_shift": 32,
+      "missing_classes": 80,
+      "covered": 387
+    },
+    {
+      "multiplier": 55,
+      "best_shift": 26,
+      "missing_classes": 78,
+      "covered": 392
+    },
+    {
+      "multiplier": 58,
+      "best_shift": 103,
+      "missing_classes": 75,
+      "covered": 393
+    },
+    {
+      "multiplier": 59,
+      "best_shift": 117,
+      "missing_classes": 76,
+      "covered": 395
+    },
+    {
+      "multiplier": 60,
+      "best_shift": 127,
+      "missing_classes": 72,
+      "covered": 404
+    },
+    {
+      "multiplier": 61,
+      "best_shift": 125,
+      "missing_classes": 82,
+      "covered": 384
+    },
+    {
+      "multiplier": 62,
+      "best_shift": 18,
+      "missing_classes": 79,
+      "covered": 390
+    },
+    {
+      "multiplier": 64,
+      "best_shift": 105,
+      "missing_classes": 78,
+      "covered": 389
+    },
+    {
+      "multiplier": 65,
+      "best_shift": 29,
+      "missing_classes": 79,
+      "covered": 389
+    },
+    {
+      "multiplier": 66,
+      "best_shift": 16,
+      "missing_classes": 67,
+      "covered": 409
+    },
+    {
+      "multiplier": 67,
+      "best_shift": 64,
+      "missing_classes": 68,
+      "covered": 401
+    },
+    {
+      "multiplier": 68,
+      "best_shift": 36,
+      "missing_classes": 68,
+      "covered": 409
+    },
+    {
+      "multiplier": 69,
+      "best_shift": 103,
+      "missing_classes": 86,
+      "covered": 374
+    },
+    {
+      "multiplier": 71,
+      "best_shift": 36,
+      "missing_classes": 77,
+      "covered": 387
+    },
+    {
+      "multiplier": 72,
+      "best_shift": 68,
+      "missing_classes": 81,
+      "covered": 387
+    },
+    {
+      "multiplier": 73,
+      "best_shift": 95,
+      "missing_classes": 70,
+      "covered": 403
+    },
+    {
+      "multiplier": 74,
+      "best_shift": 71,
+      "missing_classes": 82,
+      "covered": 381
+    },
+    {
+      "multiplier": 75,
+      "best_shift": 86,
+      "missing_classes": 80,
+      "covered": 382
+    },
+    {
+      "multiplier": 78,
+      "best_shift": 36,
+      "missing_classes": 74,
+      "covered": 394
+    },
+    {
+      "multiplier": 79,
+      "best_shift": 36,
+      "missing_classes": 77,
+      "covered": 389
+    },
+    {
+      "multiplier": 80,
+      "best_shift": 43,
+      "missing_classes": 79,
+      "covered": 389
+    },
+    {
+      "multiplier": 81,
+      "best_shift": 130,
+      "missing_classes": 81,
+      "covered": 390
+    },
+    {
+      "multiplier": 82,
+      "best_shift": 40,
+      "missing_classes": 86,
+      "covered": 382
+    },
+    {
+      "multiplier": 83,
+      "best_shift": 69,
+      "missing_classes": 76,
+      "covered": 393
+    },
+    {
+      "multiplier": 85,
+      "best_shift": 82,
+      "missing_classes": 70,
+      "covered": 400
+    },
+    {
+      "multiplier": 86,
+      "best_shift": 81,
+      "missing_classes": 81,
+      "covered": 388
+    },
+    {
+      "multiplier": 87,
+      "best_shift": 87,
+      "missing_classes": 75,
+      "covered": 399
+    },
+    {
+      "multiplier": 88,
+      "best_shift": 62,
+      "missing_classes": 68,
+      "covered": 401
+    },
+    {
+      "multiplier": 89,
+      "best_shift": 0,
+      "missing_classes": 75,
+      "covered": 391
+    },
+    {
+      "multiplier": 90,
+      "best_shift": 86,
+      "missing_classes": 74,
+      "covered": 399
+    },
+    {
+      "multiplier": 92,
+      "best_shift": 22,
+      "missing_classes": 78,
+      "covered": 385
+    },
+    {
+      "multiplier": 93,
+      "best_shift": 30,
+      "missing_classes": 68,
+      "covered": 402
+    },
+    {
+      "multiplier": 94,
+      "best_shift": 78,
+      "missing_classes": 79,
+      "covered": 393
+    },
+    {
+      "multiplier": 96,
+      "best_shift": 95,
+      "missing_classes": 81,
+      "covered": 387
+    },
+    {
+      "multiplier": 97,
+      "best_shift": 75,
+      "missing_classes": 71,
+      "covered": 398
+    },
+    {
+      "multiplier": 99,
+      "best_shift": 9,
+      "missing_classes": 87,
+      "covered": 378
+    },
+    {
+      "multiplier": 100,
+      "best_shift": 34,
+      "missing_classes": 77,
+      "covered": 388
+    },
+    {
+      "multiplier": 101,
+      "best_shift": 45,
+      "missing_classes": 83,
+      "covered": 382
+    },
+    {
+      "multiplier": 102,
+      "best_shift": 85,
+      "missing_classes": 86,
+      "covered": 378
+    },
+    {
+      "multiplier": 103,
+      "best_shift": 126,
+      "missing_classes": 74,
+      "covered": 394
+    },
+    {
+      "multiplier": 104,
+      "best_shift": 72,
+      "missing_classes": 85,
+      "covered": 387
+    },
+    {
+      "multiplier": 106,
+      "best_shift": 64,
+      "missing_classes": 76,
+      "covered": 388
+    },
+    {
+      "multiplier": 107,
+      "best_shift": 59,
+      "missing_classes": 84,
+      "covered": 379
+    },
+    {
+      "multiplier": 108,
+      "best_shift": 94,
+      "missing_classes": 80,
+      "covered": 380
+    },
+    {
+      "multiplier": 109,
+      "best_shift": 45,
+      "missing_classes": 82,
+      "covered": 385
+    },
+    {
+      "multiplier": 110,
+      "best_shift": 11,
+      "missing_classes": 85,
+      "covered": 383
+    },
+    {
+      "multiplier": 111,
+      "best_shift": 22,
+      "missing_classes": 82,
+      "covered": 377
+    },
+    {
+      "multiplier": 113,
+      "best_shift": 31,
+      "missing_classes": 82,
+      "covered": 381
+    },
+    {
+      "multiplier": 115,
+      "best_shift": 45,
+      "missing_classes": 68,
+      "covered": 405
+    },
+    {
+      "multiplier": 116,
+      "best_shift": 13,
+      "missing_classes": 72,
+      "covered": 397
+    },
+    {
+      "multiplier": 117,
+      "best_shift": 90,
+      "missing_classes": 76,
+      "covered": 391
+    },
+    {
+      "multiplier": 118,
+      "best_shift": 95,
+      "missing_classes": 74,
+      "covered": 402
+    },
+    {
+      "multiplier": 120,
+      "best_shift": 115,
+      "missing_classes": 84,
+      "covered": 380
+    },
+    {
+      "multiplier": 121,
+      "best_shift": 23,
+      "missing_classes": 81,
+      "covered": 377
+    },
+    {
+      "multiplier": 122,
+      "best_shift": 102,
+      "missing_classes": 74,
+      "covered": 400
+    },
+    {
+      "multiplier": 123,
+      "best_shift": 74,
+      "missing_classes": 78,
+      "covered": 390
+    },
+    {
+      "multiplier": 124,
+      "best_shift": 30,
+      "missing_classes": 76,
+      "covered": 391
+    },
+    {
+      "multiplier": 125,
+      "best_shift": 113,
+      "missing_classes": 61,
+      "covered": 411
+    },
+    {
+      "multiplier": 127,
+      "best_shift": 65,
+      "missing_classes": 85,
+      "covered": 378
+    },
+    {
+      "multiplier": 128,
+      "best_shift": 76,
+      "missing_classes": 69,
+      "covered": 403
+    },
+    {
+      "multiplier": 129,
+      "best_shift": 66,
+      "missing_classes": 63,
+      "covered": 417
+    },
+    {
+      "multiplier": 130,
+      "best_shift": 16,
+      "missing_classes": 80,
+      "covered": 384
+    },
+    {
+      "multiplier": 131,
+      "best_shift": 79,
+      "missing_classes": 89,
+      "covered": 378
+    },
+    {
+      "multiplier": 132,
+      "best_shift": 64,
+      "missing_classes": 70,
+      "covered": 403
+    }
+  ]
+}
