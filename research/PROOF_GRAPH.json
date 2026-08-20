@@ -22,6 +22,18 @@
       "obligations": ["SIDON-BLOCKING-SUFFICIENT", "SIDON-BLOCKING-NECESSARY"],
       "implication_evidence": "LEAN-SIDON-BLOCKING-IFF-001",
       "notes": "Both directions and their equivalence are Lean-verified. This route is discharged and the implication to the goal is separately checked."
+    },
+    {
+      "route_id": "ROUTE-ERDOS-156-LINEAR-RESIDUE-DEFECT",
+      "goal": "ERDOS-156-O-N13",
+      "operator": "AND",
+      "obligations": [
+        "SINGER-LIFT-SIDON",
+        "LINEAR-RESIDUE-DEFECT",
+        "RUZSA-REPAIR-LINEAR"
+      ],
+      "implication_review": "informally checked for N=qM with M=cp; full asymptotic constants and prime selection remain to be formalized",
+      "notes": "The repair core injection is Lean-verified. LINEAR-RESIDUE-DEFECT is the sole discovery bottleneck: at most Cp extra residue classes may have an uncovered layer. Capacity forces c<1/2."
     }
   ]
 }
