@@ -48,6 +48,24 @@
       "version": 1,
       "statement": "For every set A of natural numbers and x not in A, if x+a=b+c or x+x=b+c for some a,b,c in A, then inserting x into A is not Sidon.",
       "statement_sha256": "d91b993fbbee8afb6921e0cd99b0810d75239916fa6ae97af7ee4603ce1cd4bc"
+    },
+    {
+      "claim_id": "SIDON-BLOCKING-NECESSARY",
+      "version": 1,
+      "statement": "For every Sidon set A of natural numbers and x not in A, if inserting x into A is not Sidon, then x+a=b+c or x+x=b+c for some a,b,c in A.",
+      "statement_sha256": "0a8cdf8f1a57c6b97ffce45d8bc2e874de0eb61e7d86266e70a0f2755e8d1dfd"
+    },
+    {
+      "claim_id": "SIDON-BLOCKING-IFF",
+      "version": 1,
+      "statement": "For every Sidon set A of natural numbers and x not in A, inserting x preserves the Sidon property if and only if x has no blocking equation from A.",
+      "statement_sha256": "01167caaf45362255a04c046ea64c2eea274a86a450e63287ce73d708c8269a7"
+    },
+    {
+      "claim_id": "SIDON-MAXIMAL-IFF-COVER",
+      "version": 1,
+      "statement": "A Sidon set A is inclusion-maximal in a set U if and only if every point of U outside A has a blocking equation from A.",
+      "statement_sha256": "4e094f16115b62edfe05b0c99170d528ac5d037a00f6c9a8dbb3aa41908d9be9"
     }
   ],
   "evidence": [
@@ -110,6 +128,36 @@
       "verdict": "supports",
       "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
       "diagnostics": "Lean theorem blocked_prevents_sidon_extension; exit code 0."
+    },
+    {
+      "evidence_id": "LEAN-SIDON-BLOCKING-NECESSARY-001",
+      "claim_id": "SIDON-BLOCKING-NECESSARY",
+      "claim_version": 1,
+      "statement_sha256": "0a8cdf8f1a57c6b97ffce45d8bc2e874de0eb61e7d86266e70a0f2755e8d1dfd",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean theorem failed_sidon_extension_is_blocked; exit code 0."
+    },
+    {
+      "evidence_id": "LEAN-SIDON-BLOCKING-IFF-001",
+      "claim_id": "SIDON-BLOCKING-IFF",
+      "claim_version": 1,
+      "statement_sha256": "01167caaf45362255a04c046ea64c2eea274a86a450e63287ce73d708c8269a7",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean theorem sidon_extension_iff_not_blocked; exit code 0."
+    },
+    {
+      "evidence_id": "LEAN-SIDON-MAXIMAL-COVER-001",
+      "claim_id": "SIDON-MAXIMAL-IFF-COVER",
+      "claim_version": 1,
+      "statement_sha256": "4e094f16115b62edfe05b0c99170d528ac5d037a00f6c9a8dbb3aa41908d9be9",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean theorem maximal_in_iff_blocks_every_missing; exit code 0."
     }
   ]
 }

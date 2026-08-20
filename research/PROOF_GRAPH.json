@@ -20,7 +20,8 @@
       "goal": "SIDON-BLOCKING-IFF",
       "operator": "AND",
       "obligations": ["SIDON-BLOCKING-SUFFICIENT", "SIDON-BLOCKING-NECESSARY"],
-      "notes": "The sufficient direction is Lean-verified. The necessary direction is the next structural proof target."
+      "implication_evidence": "LEAN-SIDON-BLOCKING-IFF-001",
+      "notes": "Both directions and their equivalence are Lean-verified. This route is discharged and the implication to the goal is separately checked."
     }
   ]
 }

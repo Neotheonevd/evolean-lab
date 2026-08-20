@@ -1,4 +1,5 @@
 import Mathlib.Data.Finset.Basic
+import Lean.Elab.Tactic.Omega
 
 namespace EvoLeanLab.SidonSaturation
 
@@ -30,6 +31,59 @@ theorem blocked_prevents_sidon_extension {A : Set ℕ} {x : ℕ}
     rcases hcollision with hsame | hswap
     · exact hx (hsame.1 ▸ hb)
     · exact hx (hswap.1 ▸ hc)
+
+/-- Every failure to adjoin a new point to a Sidon set has a blocking equation. -/
+theorem failed_sidon_extension_is_blocked {A : Set ℕ} {x : ℕ}
+    (hA : IsSidonSet A) (hx : x ∉ A) (hfail : ¬ IsSidonSet (insert x A)) :
+    IsBlockedBy A x := by
+  classical
+  by_contra hnotblocked
+  apply hfail
+  intro a b c d ha hb hc hd hsum
+  simp only [Set.mem_insert_iff] at ha hb hc hd
+  simp only [IsBlockedBy, not_exists] at hnotblocked
+  rcases ha with rfl | ha <;>
+    rcases hb with rfl | hb <;>
+    rcases hc with rfl | hc <;>
+    rcases hd with rfl | hd
+  all_goals try { exact hA ha hb hc hd hsum }
+  all_goals simp_all
+  all_goals try omega
+  · exfalso
+    exact (hnotblocked c hc c hc d hd).2 rfl
+  · exfalso
+    apply (hnotblocked a ha c hc d hd).1
+    omega
+  · exfalso
+    apply (hnotblocked a ha a ha b hb).2
+    omega
+  · exfalso
+    apply (hnotblocked d hd a ha b hb).1
+    omega
+  · exfalso
+    apply (hnotblocked c hc a ha b hb).1
+    omega
+
+/-- For a new point, blocking equations exactly characterize failed Sidon extension. -/
+theorem sidon_extension_iff_not_blocked {A : Set ℕ} {x : ℕ}
+    (hA : IsSidonSet A) (hx : x ∉ A) :
+    IsSidonSet (insert x A) ↔ ¬ IsBlockedBy A x := by
+  constructor
+  · intro hext hblock
+    exact blocked_prevents_sidon_extension hx hblock hext
+  · intro hnotblocked
+    by_contra hfail
+    exact hnotblocked (failed_sidon_extension_is_blocked hA hx hfail)
+
+/-- A Sidon set is inclusion-maximal in `U` exactly when it blocks every missing point. -/
+theorem maximal_in_iff_blocks_every_missing {U A : Set ℕ} (hA : IsSidonSet A) :
+    (∀ ⦃x : ℕ⦄, x ∈ U → x ∉ A → ¬ IsSidonSet (insert x A)) ↔
+      ∀ ⦃x : ℕ⦄, x ∈ U → x ∉ A → IsBlockedBy A x := by
+  constructor
+  · intro hmax x hxU hxA
+    exact failed_sidon_extension_is_blocked hA hxA (hmax hxU hxA)
+  · intro hblocks x hxU hxA
+    exact blocked_prevents_sidon_extension hxA (hblocks hxU hxA)
 
 def pairSums (A : List ℕ) : List ℕ :=
   A.flatMap fun a => (A.filter fun b => a ≤ b).map fun b => a + b
