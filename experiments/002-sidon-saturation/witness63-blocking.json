@@ -1,0 +1,330 @@
+{
+  "set": [
+    7,
+    23,
+    24,
+    30,
+    38,
+    43
+  ],
+  "n": 63,
+  "is_sidon": true,
+  "is_maximal": true,
+  "uncovered": [],
+  "blocking_kind_counts": {
+    "translate": 51,
+    "member": 6,
+    "midpoint": 6
+  },
+  "certificates": [
+    {
+      "x": 1,
+      "kind": "translate",
+      "equation": "1+30=7+24"
+    },
+    {
+      "x": 2,
+      "kind": "translate",
+      "equation": "2+43=7+38"
+    },
+    {
+      "x": 3,
+      "kind": "translate",
+      "equation": "3+43=23+23"
+    },
+    {
+      "x": 4,
+      "kind": "translate",
+      "equation": "4+43=23+24"
+    },
+    {
+      "x": 5,
+      "kind": "translate",
+      "equation": "5+43=24+24"
+    },
+    {
+      "x": 6,
+      "kind": "translate",
+      "equation": "6+24=7+23"
+    },
+    {
+      "x": 7,
+      "kind": "member"
+    },
+    {
+      "x": 8,
+      "kind": "translate",
+      "equation": "8+23=7+24"
+    },
+    {
+      "x": 9,
+      "kind": "translate",
+      "equation": "9+38=23+24"
+    },
+    {
+      "x": 10,
+      "kind": "translate",
+      "equation": "10+38=24+24"
+    },
+    {
+      "x": 11,
+      "kind": "translate",
+      "equation": "11+43=24+30"
+    },
+    {
+      "x": 12,
+      "kind": "translate",
+      "equation": "12+38=7+43"
+    },
+    {
+      "x": 13,
+      "kind": "translate",
+      "equation": "13+24=7+30"
+    },
+    {
+      "x": 14,
+      "kind": "translate",
+      "equation": "14+23=7+30"
+    },
+    {
+      "x": 15,
+      "kind": "midpoint",
+      "equation": "2*15=7+23"
+    },
+    {
+      "x": 16,
+      "kind": "translate",
+      "equation": "16+30=23+23"
+    },
+    {
+      "x": 17,
+      "kind": "translate",
+      "equation": "17+30=23+24"
+    },
+    {
+      "x": 18,
+      "kind": "translate",
+      "equation": "18+30=24+24"
+    },
+    {
+      "x": 19,
+      "kind": "translate",
+      "equation": "19+43=24+38"
+    },
+    {
+      "x": 20,
+      "kind": "translate",
+      "equation": "20+30=7+43"
+    },
+    {
+      "x": 21,
+      "kind": "translate",
+      "equation": "21+24=7+38"
+    },
+    {
+      "x": 22,
+      "kind": "translate",
+      "equation": "22+23=7+38"
+    },
+    {
+      "x": 23,
+      "kind": "member"
+    },
+    {
+      "x": 24,
+      "kind": "member"
+    },
+    {
+      "x": 25,
+      "kind": "midpoint",
+      "equation": "2*25=7+43"
+    },
+    {
+      "x": 26,
+      "kind": "translate",
+      "equation": "26+24=7+43"
+    },
+    {
+      "x": 27,
+      "kind": "midpoint",
+      "equation": "2*27=24+30"
+    },
+    {
+      "x": 28,
+      "kind": "translate",
+      "equation": "28+38=23+43"
+    },
+    {
+      "x": 29,
+      "kind": "translate",
+      "equation": "29+24=23+30"
+    },
+    {
+      "x": 30,
+      "kind": "member"
+    },
+    {
+      "x": 31,
+      "kind": "midpoint",
+      "equation": "2*31=24+38"
+    },
+    {
+      "x": 32,
+      "kind": "translate",
+      "equation": "32+30=24+38"
+    },
+    {
+      "x": 33,
+      "kind": "midpoint",
+      "equation": "2*33=23+43"
+    },
+    {
+      "x": 34,
+      "kind": "midpoint",
+      "equation": "2*34=30+38"
+    },
+    {
+      "x": 35,
+      "kind": "translate",
+      "equation": "35+38=30+43"
+    },
+    {
+      "x": 36,
+      "kind": "translate",
+      "equation": "36+24=30+30"
+    },
+    {
+      "x": 37,
+      "kind": "translate",
+      "equation": "37+23=30+30"
+    },
+    {
+      "x": 38,
+      "kind": "member"
+    },
+    {
+      "x": 39,
+      "kind": "translate",
+      "equation": "39+7=23+23"
+    },
+    {
+      "x": 40,
+      "kind": "translate",
+      "equation": "40+7=23+24"
+    },
+    {
+      "x": 41,
+      "kind": "translate",
+      "equation": "41+7=24+24"
+    },
+    {
+      "x": 42,
+      "kind": "translate",
+      "equation": "42+24=23+43"
+    },
+    {
+      "x": 43,
+      "kind": "member"
+    },
+    {
+      "x": 44,
+      "kind": "translate",
+      "equation": "44+23=24+43"
+    },
+    {
+      "x": 45,
+      "kind": "translate",
+      "equation": "45+23=30+38"
+    },
+    {
+      "x": 46,
+      "kind": "translate",
+      "equation": "46+7=23+30"
+    },
+    {
+      "x": 47,
+      "kind": "translate",
+      "equation": "47+7=24+30"
+    },
+    {
+      "x": 48,
+      "kind": "translate",
+      "equation": "48+38=43+43"
+    },
+    {
+      "x": 49,
+      "kind": "translate",
+      "equation": "49+24=30+43"
+    },
+    {
+      "x": 50,
+      "kind": "translate",
+      "equation": "50+23=30+43"
+    },
+    {
+      "x": 51,
+      "kind": "translate",
+      "equation": "51+30=38+43"
+    },
+    {
+      "x": 52,
+      "kind": "translate",
+      "equation": "52+24=38+38"
+    },
+    {
+      "x": 53,
+      "kind": "translate",
+      "equation": "53+7=30+30"
+    },
+    {
+      "x": 54,
+      "kind": "translate",
+      "equation": "54+7=23+38"
+    },
+    {
+      "x": 55,
+      "kind": "translate",
+      "equation": "55+7=24+38"
+    },
+    {
+      "x": 56,
+      "kind": "translate",
+      "equation": "56+30=43+43"
+    },
+    {
+      "x": 57,
+      "kind": "translate",
+      "equation": "57+24=38+43"
+    },
+    {
+      "x": 58,
+      "kind": "translate",
+      "equation": "58+23=38+43"
+    },
+    {
+      "x": 59,
+      "kind": "translate",
+      "equation": "59+7=23+43"
+    },
+    {
+      "x": 60,
+      "kind": "translate",
+      "equation": "60+7=24+43"
+    },
+    {
+      "x": 61,
+      "kind": "translate",
+      "equation": "61+7=30+38"
+    },
+    {
+      "x": 62,
+      "kind": "translate",
+      "equation": "62+24=43+43"
+    },
+    {
+      "x": 63,
+      "kind": "translate",
+      "equation": "63+23=43+43"
+    }
+  ]
+}

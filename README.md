@@ -17,7 +17,7 @@ EvoLean Lab 是一个开放的 AI 数学研究实验项目。我们希望把“�
 ## 当前实验
 
 - [实验 001：课题侦察](experiments/001-topic-scout/README.md)：选择有限极值组合数学作为首个领域，并用 Lean 验证 Sidon 集与正差搜索之间的关键桥梁。
-- [实验 002：极小的极大 Sidon 集](experiments/002-sidon-saturation/README.md)：研究按包含关系极大的 Sidon 集能有多小。项目已经得到 `s(43)=6` 的计算验证，以及 Lean 验证的 `M(6) ≥ 61` 新下界见证。
+- [实验 002：极小的极大 Sidon 集](experiments/002-sidon-saturation/README.md)：研究按包含关系极大的 Sidon 集能有多小。项目已经得到 `s(43)=6` 的计算验证，以及 Lean 验证的 `M(6) ≥ 63` 新下界见证。
 - [实验 002 完整中文报告](experiments/002-sidon-saturation/EXPERIMENT_REPORT.zh-CN.md)：记录命题生成、错误猜想反驳、独立穷举、Lean 核验和文献查重。
 - [从 Microsoft ArgusAgent 借鉴的机制](docs/argus-adaptation.md)：命题版本、内容摘要绑定、证据分级和 AND/OR 证明路线。
 

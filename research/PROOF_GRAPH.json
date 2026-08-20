@@ -13,7 +13,14 @@
       "goal": "SIDON-M6-EQ-61",
       "operator": "AND",
       "obligations": ["SIDON-M6-LOWER-61", "SIDON-M6-UPPER-61"],
-      "notes": "The upper-bound claim has not been created because no exhaustive certificate or proof exists yet. Evolutionary stagnation is not evidence of optimality."
+      "notes": "Retired after Lean verified a six-element maximal witness in [1,63]."
+    },
+    {
+      "route_id": "ROUTE-SIDON-BLOCKING-CHARACTERIZATION",
+      "goal": "SIDON-BLOCKING-IFF",
+      "operator": "AND",
+      "obligations": ["SIDON-BLOCKING-SUFFICIENT", "SIDON-BLOCKING-NECESSARY"],
+      "notes": "The sufficient direction is Lean-verified. The necessary direction is the next structural proof target."
     }
   ]
 }

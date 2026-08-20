@@ -36,6 +36,18 @@
       "version": 1,
       "statement": "M(6) = 61, where M(k) is the largest N admitting a k-element inclusion-maximal Sidon subset of [1,N].",
       "statement_sha256": "1157f82f55fa02c50eb3fc2bc83d9a1a09ccf821adfcbb297164f4a3e18ff774"
+    },
+    {
+      "claim_id": "SIDON-M6-LOWER-63",
+      "version": 1,
+      "statement": "There exists a six-element inclusion-maximal Sidon subset of [1,63].",
+      "statement_sha256": "b06cddfac1300032d232b742c204e1e45f698ed150844e34398d6737d6c3a001"
+    },
+    {
+      "claim_id": "SIDON-BLOCKING-SUFFICIENT",
+      "version": 1,
+      "statement": "For every set A of natural numbers and x not in A, if x+a=b+c or x+x=b+c for some a,b,c in A, then inserting x into A is not Sidon.",
+      "statement_sha256": "d91b993fbbee8afb6921e0cd99b0810d75239916fa6ae97af7ee4603ce1cd4bc"
     }
   ],
   "evidence": [
@@ -68,6 +80,36 @@
       "verdict": "supports",
       "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
       "diagnostics": "Lean exit code 0 for witness [22,30,31,33,43,58] in [1,61]."
+    },
+    {
+      "evidence_id": "LEAN-REFUTE-SIDON-M6-EQ-61-001",
+      "claim_id": "SIDON-M6-EQ-61",
+      "claim_version": 1,
+      "statement_sha256": "1157f82f55fa02c50eb3fc2bc83d9a1a09ccf821adfcbb297164f4a3e18ff774",
+      "tier": "mechanical",
+      "verdict": "refutes",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean verifies a six-element maximal witness in [1,63], contradicting M(6)=61."
+    },
+    {
+      "evidence_id": "LEAN-SIDON-M6-63-001",
+      "claim_id": "SIDON-M6-LOWER-63",
+      "claim_version": 1,
+      "statement_sha256": "b06cddfac1300032d232b742c204e1e45f698ed150844e34398d6737d6c3a001",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean exit code 0 for witness [7,23,24,30,38,43] in [1,63]."
+    },
+    {
+      "evidence_id": "LEAN-SIDON-BLOCKING-001",
+      "claim_id": "SIDON-BLOCKING-SUFFICIENT",
+      "claim_version": 1,
+      "statement_sha256": "d91b993fbbee8afb6921e0cd99b0810d75239916fa6ae97af7ee4603ce1cd4bc",
+      "tier": "mechanical",
+      "verdict": "supports",
+      "artifact": "experiments/002-sidon-saturation/Saturation43.lean",
+      "diagnostics": "Lean theorem blocked_prevents_sidon_extension; exit code 0."
     }
   ]
 }
