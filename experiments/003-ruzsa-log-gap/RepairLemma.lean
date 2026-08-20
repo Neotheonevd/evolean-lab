@@ -10,6 +10,24 @@ def IsSidonSet (A : Set ℤ) : Prop :=
   ∀ ⦃a b c d : ℤ⦄, a ∈ A → b ∈ A → c ∈ A → d ∈ A → a + b = c + d →
     (a = c ∧ b = d) ∨ (a = d ∧ b = c)
 
+/-- An old set blocks `x` if adjoining it would create one of the two possible
+sum collisions involving the new point. -/
+def IsBlockedBy (A₀ : Set ℤ) (x : ℤ) : Prop :=
+  ∃ a ∈ A₀, ∃ b ∈ A₀, ∃ c ∈ A₀, x + a = b + c ∨ x + x = b + c
+
+/-- A point lying in a Sidon superset but outside the old set was not already
+blocked by the old set. -/
+theorem new_point_not_blocked_by_old {A A₀ : Set ℤ} {x : ℤ}
+    (hA : IsSidonSet A) (hsub : A₀ ⊆ A) (hx : x ∈ A) (hxold : x ∉ A₀) :
+    ¬ IsBlockedBy A₀ x := by
+  rintro ⟨a, ha, b, hb, c, hc, htranslate | hmidpoint⟩
+  · rcases hA hx (hsub ha) (hsub hb) (hsub hc) htranslate with hsame | hswap
+    · exact hxold (hsame.1 ▸ hb)
+    · exact hxold (hswap.1 ▸ hc)
+  · rcases hA hx hx (hsub hb) (hsub hc) hmidpoint with hsame | hswap
+    · exact hxold (hsame.1 ▸ hb)
+    · exact hxold (hswap.1 ▸ hc)
+
 /--
 Core injection behind the repair estimate.  Pair every non-anchor point `x` with an
 anchor `ax` in the same residue class.  In a Sidon set two resulting nonzero
@@ -110,5 +128,71 @@ theorem sidon_repair_interval_bound
   exact sidon_repair_card_bound A new anchors remainder (nonzeroMultiples q K)
     anchor t (2 * K) hA hpartition hanchors hpoint hanchor hne hmaps
     (nonzeroMultiples_card_le q K)
+
+/-- End-to-end residue-class interface for the repair count.  Old residue
+classes choose their anchor in `A₀`; every genuinely new class lies in the
+exceptional set `E`; and equal residues use the same anchor.  These hypotheses
+automatically make the new-anchor-to-residue map injective. -/
+theorem sidon_repair_from_exceptional_residues
+    {β : Type*} [DecidableEq β]
+    (A A₀ : Finset ℤ) (E : Finset β)
+    (ρ : ℤ → β) (anchor : ℤ → ℤ) (q : ℤ) (K : ℕ)
+    (hA : IsSidonSet (A : Set ℤ))
+    (hA₀ : A₀ ⊆ A)
+    (hanchor_mem : ∀ x ∈ A, anchor x ∈ A)
+    (hcanonical : ∀ x ∈ A, ∀ y ∈ A, ρ x = ρ y → anchor x = anchor y)
+    (hbase : ∀ x ∈ A, (∃ a ∈ A₀, ρ a = ρ x) → anchor x ∈ A₀)
+    (hunblocked_location : ∀ x ∈ A, x ∉ A₀ →
+      ¬ IsBlockedBy (A₀ : Set ℤ) x →
+        (∃ a ∈ A₀, ρ a = ρ x) ∨ ρ x ∈ E)
+    (hdifference : ∀ x ∈ A, x ≠ anchor x →
+      x - anchor x ∈ nonzeroMultiples q K) :
+    (A \ A₀).card ≤ 2 * K + E.card := by
+  let new : Finset ℤ := A \ A₀
+  let anchors : Finset ℤ := new.filter fun x ↦ x = anchor x
+  let remainder : Finset ℤ := new \ anchors
+  have hpartition : new ⊆ anchors ∪ remainder := by
+    intro x hx
+    by_cases hxa : x ∈ anchors
+    · exact Finset.mem_union_left remainder hxa
+    · exact Finset.mem_union_right anchors (Finset.mem_sdiff.mpr ⟨hx, hxa⟩)
+  have hanchors_map : Set.MapsTo ρ (anchors : Set ℤ) (E : Set β) := by
+    intro x hx
+    have hxfilter := Finset.mem_filter.mp hx
+    have hxnew := Finset.mem_sdiff.mp hxfilter.1
+    have hxA : x ∈ A := hxnew.1
+    rcases hunblocked_location x hxA hxnew.2
+      (new_point_not_blocked_by_old hA (fun _ ha ↦ hA₀ ha) hxA hxnew.2) with hold | hE
+    · have hanchor_old := hbase x hxA hold
+      rw [← hxfilter.2] at hanchor_old
+      exact False.elim (hxnew.2 hanchor_old)
+    · exact hE
+  have hanchors_inj : Set.InjOn ρ (anchors : Set ℤ) := by
+    intro x hx y hy hrho
+    have hxfilter := Finset.mem_filter.mp hx
+    have hyfilter := Finset.mem_filter.mp hy
+    have hxA : x ∈ A := (Finset.mem_sdiff.mp hxfilter.1).1
+    have hyA : y ∈ A := (Finset.mem_sdiff.mp hyfilter.1).1
+    exact hxfilter.2.trans ((hcanonical x hxA y hyA hrho).trans hyfilter.2.symm)
+  have hanchors_card : anchors.card ≤ E.card :=
+    Finset.card_le_card_of_injOn ρ hanchors_map hanchors_inj
+  have hpoint : ∀ x ∈ remainder, x ∈ (A : Set ℤ) := by
+    intro x hx
+    exact (Finset.mem_sdiff.mp (Finset.mem_sdiff.mp hx).1).1
+  have hchosen : ∀ x ∈ remainder, anchor x ∈ (A : Set ℤ) := by
+    intro x hx
+    exact hanchor_mem x (hpoint x hx)
+  have hnonanchor : ∀ x ∈ remainder, x ≠ anchor x := by
+    intro x hx hxeq
+    have hxparts := Finset.mem_sdiff.mp hx
+    apply hxparts.2
+    exact Finset.mem_filter.mpr ⟨hxparts.1, hxeq⟩
+  have hdiff_map : Set.MapsTo (fun x ↦ x - anchor x)
+      (remainder : Set ℤ) (nonzeroMultiples q K : Set ℤ) := by
+    intro x hx
+    exact hdifference x (hpoint x hx) (hnonanchor x hx)
+  have hbound := sidon_repair_interval_bound (A : Set ℤ) new anchors remainder
+    anchor q E.card K hA hpartition hanchors_card hpoint hchosen hnonanchor hdiff_map
+  simpa [new] using hbound
 
 end EvoLeanLab.RuzsaRepair
