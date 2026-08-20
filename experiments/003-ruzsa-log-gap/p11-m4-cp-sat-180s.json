@@ -1,0 +1,30 @@
+{
+  "method": "cp_sat_exact_model",
+  "status": "FEASIBLE",
+  "p": 11,
+  "q": 133,
+  "layers": 4,
+  "objective": 35350.0,
+  "best_bound": 58684.0,
+  "wall_time_seconds": 180.2183051,
+  "branches": 330,
+  "conflicts": 0,
+  "good_classes": 72,
+  "missing_classes": 49,
+  "covered": 430,
+  "total": 484,
+  "heights": [
+    3,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "method": "cp_sat_exact_model",
+  "status": "OPTIMAL",
+  "p": 5,
+  "q": 31,
+  "layers": 3,
+  "objective": 1050.0,
+  "best_bound": 1050.0,
+  "wall_time_seconds": 0.8448108000000001,
+  "branches": 0,
+  "conflicts": 0,
+  "good_classes": 13,
+  "missing_classes": 12,
+  "covered": 62,
+  "total": 75,
+  "heights": [
+    1,
+    1,
+    2,
+    1,
+    2,
+    1
+  ]
+}

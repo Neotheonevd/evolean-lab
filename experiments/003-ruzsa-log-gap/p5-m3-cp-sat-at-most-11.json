@@ -1,0 +1,13 @@
+{
+  "method": "cp_sat_exact_model",
+  "status": "INFEASIBLE",
+  "p": 5,
+  "q": 31,
+  "layers": 3,
+  "objective": null,
+  "best_bound": null,
+  "max_bad_decision": 11,
+  "wall_time_seconds": 0.4068954,
+  "branches": 10966,
+  "conflicts": 669
+}

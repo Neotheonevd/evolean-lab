@@ -6,4 +6,4 @@ build/
 dist/
 *.egg-info/
 .evolean/
-
+.python-deps/
