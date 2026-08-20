@@ -58,6 +58,7 @@ Ruzsa 在 1998 年证明了带对数的上界 `O((N log N)^(1/3))`。我们的�
 - 当前见证的缺失单元已拆分：`p=11` 为 35 个循环未覆盖 + 19 个 wrap-only，`p=13` 为 39+22；Lean 已验证这一不交基数恒等式。最终核心构造定理因此分成 `CYCLIC-DEFECT=O(p)` 与 `ZERO-WINDING-DEFECT=O(p)` 两个 AND 子目标；
 - 循环二阶矩审计给出总中心能量 1206、2265，每剩余类约为 `Θ(p)`；普通 Parseval/平方根消去不足以推出 `O(p)` 空单元。进一步审计否定了 `K-FOLD-CYCLIC-DESIGN`：`p=11` 时没有精确等重类，却有 86 个满射类，因此等重远强于所需结论；
 - carry twist 已通过 Lean：若 `λq≡1 (mod M)`，高度扭转 `d̃(b)=d(b)+λb` 后，含 carry 的循环覆盖与无 carry 的扭转覆盖完全等价。对 `q=p²+p+1`、`M | p+1` 可直接取 `λ=1`。循环主线现改为 `TWISTED-CYCLIC-SURJECTIVITY`；
+- 非分裂环面商角色已系统审计：`M=2` 时近乎完美，但 `M=Θ(p)` 时缺陷过大；`PURE-TORUS-QUOTIENT` 不能单独关闭循环缺陷。当前结构目标细化为“环面坐标 + 依赖 Singer 有理三元映射的低复杂度修正”；
 - `p=13,M=4`：从 58 降到 57；
 - 简单指数多项式、射影 Möbius 分桶和周期着色均弱于自由搜索，已作为失败路线保存。
 
@@ -94,5 +95,6 @@ Ruzsa 在 1998 年证明了带对数的上界 `O((N log N)^(1/3))`。我们的�
 | carry twist 消去循环覆盖中的进位 | `VERIFIED` |
 | `K-FOLD-CYCLIC-DESIGN` 常重满射构造 | `REFUTED`（作为必要/当前目标） |
 | `TWISTED-CYCLIC-SURJECTIVITY` | `UNRESOLVED` |
+| `PURE-TORUS-QUOTIENT` 完整构造 | `UNRESOLVED`，但有限实验显著不支持 |
 | 线性剩余类缺陷猜想 | `UNRESOLVED` |
 | Erdős Problem #156 | `UNRESOLVED` |

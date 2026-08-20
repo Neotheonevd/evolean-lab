@@ -1,0 +1,43 @@
+{
+  "family": "nonsplit_torus_quotient_character",
+  "p": 11,
+  "layers": 3,
+  "pgl_generators_tested": 220,
+  "cyclic_missing_cells": 20,
+  "exact_bad_residues": 58,
+  "exact_missing_cells": 65,
+  "matrix": [
+    0,
+    1,
+    3,
+    8
+  ],
+  "twisted_heights": [
+    0,
+    1,
+    2,
+    1,
+    1,
+    0,
+    0,
+    2,
+    2,
+    0,
+    2,
+    1
+  ],
+  "original_heights": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    1
+  ]
+}
