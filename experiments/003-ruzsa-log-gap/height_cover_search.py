@@ -114,64 +114,89 @@ def residue_triples(q: int, marks: tuple[int, ...], residue: int) -> tuple[tuple
     return tuple(triples)
 
 
-def coverage(p: int, heights: tuple[int, ...], layers: int) -> tuple[int, int, dict[int, list[int]]]:
-    marks = singer_set(p)
+def coverage(p: int, heights: tuple[int, ...], layers: int,
+             model: str = "anchored") -> tuple[int, int, dict[int, list[int]]]:
     q = p * p + p + 1
+    # Ruzsa takes representatives in {1,...,q}; using 0 for the zero residue
+    # shifts the boundary layer when N=qM.
+    marks = tuple(q if mark == 0 else mark for mark in singer_set(p))
     covered = 0
     total = 0
     missing: dict[int, list[int]] = {}
-    for residue in range(q):
+    for residue in range(1, q + 1):
         if residue in marks:
             continue
-        levels = {
-            heights[u] + heights[v] - heights[w] + carry
-            for u, v, w, carry in residue_triples(q, marks, residue)
-        }
-        gaps = [level for level in range(layers) if level not in levels]
-        total += layers
-        covered += layers - len(gaps)
+        if model == "paper":
+            levels = {
+                heights[u] + heights[v] - heights[w]
+                for u, v, w, _ in residue_triples(q, marks, residue)
+            }
+            targets = range(-1, layers + 2)
+        else:
+            levels = {
+                heights[u] + heights[v] - heights[w] + carry
+                for u, v, w, carry in residue_triples(q, marks, residue)
+            }
+            targets = range(layers)
+        gaps = [level for level in targets if level not in levels]
+        total += len(targets)
+        covered += len(targets) - len(gaps)
         if gaps:
             missing[residue] = gaps
     return covered, total, missing
 
 
-def exact_search(p: int, layers: int) -> dict[str, object]:
+def score_result(covered: int, missing: dict[int, list[int]], objective: str) -> tuple[int, int]:
+    if objective == "residues":
+        return (-len(missing), covered)
+    return (covered, -len(missing))
+
+
+def exact_search(p: int, layers: int, objective: str, model: str) -> dict[str, object]:
     width = p + 1
-    best: tuple[int, tuple[int, ...], dict[int, list[int]]] = (-1, (), {})
+    best: tuple[tuple[int, int], int, tuple[int, ...], dict[int, list[int]]] | None = None
     for heights in itertools.product(range(layers), repeat=width):
-        covered, total, missing = coverage(p, heights, layers)
-        if covered > best[0]:
-            best = covered, heights, missing
+        covered, total, missing = coverage(p, heights, layers, model)
+        score = score_result(covered, missing, objective)
+        if best is None or score > best[0]:
+            best = score, covered, heights, missing
         if covered == total:
             break
+    assert best is not None
     return {
         "p": p,
         "q": p * p + p + 1,
         "layers": layers,
-        "covered": best[0],
-        "total": (p * p) * layers,
-        "perfect": best[0] == (p * p) * layers,
-        "heights": best[1],
-        "missing": best[2],
+        "covered": best[1],
+        "total": p * p * (layers + 3 if model == "paper" else layers),
+        "perfect": best[1] == p * p * (layers + 3 if model == "paper" else layers),
+        "heights": best[2],
+        "missing": best[3],
         "method": "exact",
+        "objective": objective,
+        "model": model,
     }
 
 
-def evolutionary_search(p: int, layers: int, generations: int, seed: int) -> dict[str, object]:
+def evolutionary_search(p: int, layers: int, generations: int, seed: int,
+                        objective: str, model: str) -> dict[str, object]:
     rng = random.Random(seed)
     width = p + 1
     population = {tuple(rng.randrange(layers) for _ in range(width)) for _ in range(1000)}
-    best: tuple[int, tuple[int, ...], dict[int, list[int]]] = (-1, (), {})
+    best: tuple[tuple[int, int], int, tuple[int, ...], dict[int, list[int]]] | None = None
     for _ in range(generations):
         ranked = []
         for heights in population:
-            covered, total, missing = coverage(p, heights, layers)
-            ranked.append((covered, heights, missing))
-            if covered > best[0]:
-                best = covered, heights, missing
-        if best[0] == ranked[0][0] == (p * p) * layers:
+            covered, total, missing = coverage(p, heights, layers, model)
+            score = score_result(covered, missing, objective)
+            ranked.append((score, covered, heights, missing))
+            if best is None or score > best[0]:
+                best = score, covered, heights, missing
+        assert best is not None
+        target_total = p * p * (layers + 3 if model == "paper" else layers)
+        if best[1] == target_total:
             break
-        elite = [heights for _, heights, _ in sorted(ranked, reverse=True)[:100]]
+        elite = [heights for _, _, heights, _ in sorted(ranked, reverse=True)[:100]]
         population = set(elite)
         while len(population) < 1000:
             child = list(rng.choice(elite))
@@ -181,14 +206,16 @@ def evolutionary_search(p: int, layers: int, generations: int, seed: int) -> dic
         "p": p,
         "q": p * p + p + 1,
         "layers": layers,
-        "covered": best[0],
-        "total": (p * p) * layers,
-        "perfect": best[0] == (p * p) * layers,
-        "heights": best[1],
-        "missing": best[2],
+        "covered": best[1],
+        "total": p * p * (layers + 3 if model == "paper" else layers),
+        "perfect": best[1] == p * p * (layers + 3 if model == "paper" else layers),
+        "heights": best[2],
+        "missing": best[3],
         "method": "evolutionary",
         "seed": seed,
         "generations": generations,
+        "objective": objective,
+        "model": model,
     }
 
 
@@ -198,6 +225,8 @@ def main() -> int:
     parser.add_argument("--layers", type=int, required=True)
     parser.add_argument("--generations", type=int, default=2000)
     parser.add_argument("--seed", type=int, default=20260820)
+    parser.add_argument("--objective", choices=("cells", "residues"), default="cells")
+    parser.add_argument("--model", choices=("anchored", "paper"), default="anchored")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     marks = singer_set(args.p)
@@ -205,9 +234,11 @@ def main() -> int:
         raise SystemExit("invalid Singer difference set")
     search_space = args.layers ** (args.p + 1)
     if search_space <= 2_000_000:
-        result = exact_search(args.p, args.layers)
+        result = exact_search(args.p, args.layers, args.objective, args.model)
     else:
-        result = evolutionary_search(args.p, args.layers, args.generations, args.seed)
+        result = evolutionary_search(
+            args.p, args.layers, args.generations, args.seed, args.objective, args.model
+        )
     args.output.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps({k: v for k, v in result.items() if k != "missing"}, indent=2))
     return 0

@@ -1,0 +1,21 @@
+{
+  "p": 2,
+  "q": 7,
+  "layers": 2,
+  "covered": 7,
+  "total": 8,
+  "perfect": false,
+  "heights": [
+    0,
+    1,
+    0
+  ],
+  "missing": {
+    "5": [
+      0
+    ]
+  },
+  "method": "exact",
+  "objective": "residues",
+  "model": "anchored"
+}
